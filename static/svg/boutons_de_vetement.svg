@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff6d75;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #ffbeed;
+      }
+
+      .cls-3 {
+        fill: #87ccf3;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="53.77" cy="39.64" r="28.13"/>
+    <circle class="cls-5" cx="53.77" cy="39.64" r="22.84"/>
+    <g>
+      <g>
+        <circle class="cls-4" cx="53.87" cy="33.22" r="2.17" transform="translate(-5.22 55.9) rotate(-52.66)"/>
+        <circle class="cls-4" cx="53.87" cy="47.5" r="2.17" transform="translate(-16.57 61.51) rotate(-52.66)"/>
+      </g>
+      <g>
+        <circle class="cls-4" cx="47.2" cy="40.36" r="2.17" transform="translate(-13.52 53.4) rotate(-52.66)"/>
+        <circle class="cls-4" cx="60.54" cy="40.36" r="2.17" transform="translate(-8.27 64.01) rotate(-52.66)"/>
+      </g>
+    </g>
+    <circle class="cls-3" cx="92.67" cy="83.64" r="20.66"/>
+    <circle class="cls-5" cx="92.67" cy="83.64" r="16.78"/>
+    <g>
+      <circle class="cls-4" cx="92.74" cy="78.93" r="1.59" transform="translate(-26.26 104.78) rotate(-52.66)"/>
+      <circle class="cls-4" cx="92.74" cy="89.42" r="1.59" transform="translate(-34.6 108.91) rotate(-52.66)"/>
+    </g>
+    <g>
+      <circle class="cls-4" cx="87.84" cy="84.17" r="1.59" transform="translate(-32.36 102.95) rotate(-52.66)"/>
+      <circle class="cls-4" cx="97.64" cy="84.17" r="1.59" transform="translate(-28.5 110.74) rotate(-52.66)"/>
+    </g>
+    <circle class="cls-2" cx="43.25" cy="97.21" r="18.28" transform="translate(-62.07 82.16) rotate(-57.89)"/>
+    <circle class="cls-5" cx="43.25" cy="97.21" r="14.84" transform="translate(-62.07 82.16) rotate(-57.89)"/>
+    <g>
+      <circle class="cls-4" cx="40.59" cy="93.99" r="1.41" transform="translate(-15.11 8.09) rotate(-9.6)"/>
+      <circle class="cls-4" cx="46.61" cy="101.05" r="1.41" transform="translate(-16.2 9.19) rotate(-9.6)"/>
+    </g>
+    <g>
+      <circle class="cls-4" cx="40.3" cy="100.33" r="1.41" transform="translate(-16.17 8.13) rotate(-9.6)"/>
+      <circle class="cls-4" cx="46.9" cy="94.71" r="1.41" transform="translate(-15.14 9.15) rotate(-9.6)"/>
+    </g>
+  </g>
+  <rect class="cls-6" x="-3692.03" y="-979.45" width="6467.34" height="6437.3"/>
+</svg>

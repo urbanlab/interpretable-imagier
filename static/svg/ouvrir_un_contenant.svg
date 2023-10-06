@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d6d6d6;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #ff6d75;
+      }
+
+      .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-1" points="66.81 113.91 24.05 113.91 17.61 64.72 73.25 64.72 66.81 113.91"/>
+    <rect class="cls-2" x="13.74" y="61.21" width="63.42" height="6.98"/>
+    <polygon class="cls-1" points="163.49 115.67 120.73 115.67 114.29 66.47 169.93 66.47 163.49 115.67"/>
+    <polygon class="cls-2" points="181.88 57.55 132.33 17.77 136.71 12.33 186.26 52.11 181.88 57.55"/>
+    <g>
+      <path class="cls-3" d="m131.32,29.67c-4.4,3.26-15.05,13.18-11.02,30.75"/>
+      <polygon points="121.13 27.7 121 29.69 130.84 30.32 129.5 40.09 131.48 40.36 133.12 28.46 121.13 27.7"/>
+    </g>
+  </g>
+  <rect class="cls-4" x="-5624.97" y="-3043.9" width="6467.34" height="6437.3"/>
+</svg>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-7, .cls-6 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #a07637;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #baa584;
+      }
+
+      .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-3" cx="40.36" cy="27.45" r="8.24"/>
+  <circle class="cls-3" cx="85.53" cy="27.45" r="8.24"/>
+  <path class="cls-4" d="m46.95,56.52s-21.97,7.79-22.59,17.17c-.62,9.38,2.7,10.62,2.7,10.62h14.1l5.8-27.79Z"/>
+  <path class="cls-4" d="m79.64,56.52s21.97,7.79,22.59,17.17c.62,9.38-2.7,10.62-2.7,10.62h-14.1s-5.8-27.79-5.8-27.79Z"/>
+  <polygon class="cls-4" points="36.89 111.26 52.57 105.62 41.12 94.27 36.89 111.26"/>
+  <polygon class="cls-4" points="90.97 111.26 75.29 105.62 86.74 94.27 90.97 111.26"/>
+  <path class="cls-4" d="m92.18,82.86c0-15.84-12.84-33.09-28.68-33.09s-28.68,17.26-28.68,33.09,12.84,24.26,28.68,24.26,28.68-8.42,28.68-24.26Z"/>
+  <path class="cls-1" d="m80.8,81.11c0-9.56-7.75-19.97-17.3-19.97s-17.3,10.41-17.3,19.97,7.75,14.64,17.3,14.64,17.3-5.08,17.3-14.64Z"/>
+  <rect class="cls-4" x="24.27" y="83.6" width="17.48" height="28.2" rx="8.74" ry="8.74" transform="translate(-25.58 12.83) rotate(-15.95)"/>
+  <rect class="cls-4" x="85.03" y="83.6" width="17.48" height="28.2" rx="8.74" ry="8.74" transform="translate(157.08 217.41) rotate(-164.05)"/>
+  <path class="cls-4" d="m88.89,45.45s-2.38,21.19-24.36,20.79c-.54-.01-1.06-.05-1.55-.12-.49.07-1.01.11-1.55.12-21.98.4-24.36-20.79-24.36-20.79,0,0-.82-4.88,6.18-16.75,7-11.87,19.73-10.65,19.73-10.65,0,0,12.73-1.22,19.73,10.65,7,11.87,6.18,16.75,6.18,16.75Z"/>
+  <circle class="cls-6" cx="48.6" cy="38.8" r="2.41"/>
+  <circle class="cls-6" cx="77.29" cy="38.8" r="2.41"/>
+  <ellipse class="cls-2" cx="62.98" cy="43" rx="6.51" ry="3.13"/>
+  <line class="cls-5" x1="62.98" y1="66.12" x2="62.98" y2="46.13"/>
+  <rect class="cls-7" x="-5250.91" y="-5822" width="6467.34" height="6437.3"/>
+</svg>

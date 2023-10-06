@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128.13">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #ff6d75;
+      }
+
+      .cls-6 {
+        fill: #bfe6fc;
+      }
+
+      .cls-2 {
+        fill: #d6d6d6;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="10.46" y="16.12" width="107.09" height="95.88"/>
+    <rect class="cls-2" x="17.52" y="78.51" width="32.96" height="33.5"/>
+    <rect class="cls-2" x="17.52" y="78.51" width="16.48" height="33.5"/>
+    <rect class="cls-1" x="17.52" y="33.34" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="37.78" y="33.34" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="57.58" y="33.34" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="77.54" y="33.34" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="97.48" y="33.34" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="57.58" y="51.36" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="77.54" y="51.36" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="97.48" y="51.36" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="57.58" y="69.39" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="77.54" y="69.39" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="97.48" y="69.39" width="12.7" height="12.7"/>
+    <rect class="cls-2" x="10.46" y="16.12" width="107.09" height="9.73"/>
+    <line class="cls-1" x1="30.55" y1="94.02" x2="30.55" y2="98.31"/>
+    <line class="cls-1" x1="37.45" y1="94.02" x2="37.45" y2="98.31"/>
+    <rect class="cls-5" x="30.11" y="51.5" width="7.78" height="22.23"/>
+    <rect class="cls-5" x="30.12" y="51.5" width="7.76" height="22.23" transform="translate(-28.62 96.62) rotate(-90)"/>
+    <path class="cls-6" d="m19.19,41.27v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m39.69,41.27v-6.44h8.42v2.13s-3.03-1-4.77.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m59.18,41.27v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m79.29,41.27v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m99.25,41.27v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m59.18,59.41v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m79.29,59.41v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m99.25,59.41v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m59.18,77.54v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m79.29,77.54v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m99.25,77.54v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <rect class="cls-1" x="57.58" y="87.67" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="77.54" y="87.67" width="12.7" height="12.7"/>
+    <rect class="cls-1" x="97.48" y="87.67" width="12.7" height="12.7"/>
+    <path class="cls-6" d="m59.18,95.83v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m79.29,95.83v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+    <path class="cls-6" d="m99.25,95.83v-6.44h8.42v2.13s-3.03-1-4.77.88c-1.74,1.88-1.74,3.43-1.74,3.43h-1.91Z"/>
+  </g>
+  <rect class="cls-4" x="-22.52" y="-47.73" width="889.3" height="495.34"/>
+</svg>

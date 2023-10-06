@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-5 {
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #ffd4ad;
+      }
+
+      .cls-3 {
+        fill: #fab0b4;
+      }
+
+      .cls-4 {
+        stroke: #ff6d75;
+        stroke-width: 2px;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .cls-5 {
+        fill: #d6d6d6;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m74.53,65.63c0,2.98-2.32,5.4-5.18,5.4s-5.18-2.42-5.18-5.4,2.32-5.4,5.18-5.4,5.18,2.42,5.18,5.4Z"/>
+  <path class="cls-3" d="m71.36,65.63c0,1.11-.9,2.01-2.01,2.01s-2.01-.9-2.01-2.01.9-2,2.01-2,2.01.9,2.01,2Z"/>
+  <path class="cls-1" d="m83.19,79.34s-23.58,23.21-47.15-11.71"/>
+  <path class="cls-1" d="m24.55,69.87s-4.32,7.89-12.75,7.39"/>
+  <polyline class="cls-4" points="53.78 50.95 56.09 57.07 60.07 55.34 61.03 61.13"/>
+  <polyline class="cls-4" points="58.97 66.49 55.58 65.1 54.77 67.39 49.65 64"/>
+  <polyline class="cls-4" points="67.32 56.55 68.49 53.08 66.15 52.41 67.79 49.56"/>
+  <path class="cls-1" d="m87.32,37.34c-1.13,1.45-1.61,3.57-.72,6.69,0,0,10.82,21.39-3.41,35.31l-7.27,36.43c-3.83.88-7.82,1.34-11.92,1.34-29.54,0-53.49-23.95-53.49-53.49S34.46,10.13,64,10.13s53.49,23.95,53.49,53.49c0,7.78-1.66,15.17-4.65,21.84l-25.52-48.12Z"/>
+  <path class="cls-5" d="m112.84,85.46c-6.78,15.14-20.4,26.56-36.92,30.31l7.27-36.43c14.23-13.92,3.41-35.31,3.41-35.31-.89-3.12-.41-5.24.72-6.69l25.52,48.12Z"/>
+  <rect class="cls-6" x="-3457.08" y="-3880.11" width="6467.34" height="6437.3"/>
+</svg>

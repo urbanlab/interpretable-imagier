@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff6d75;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        fill: #baa584;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+
+      .cls-6 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="5.38" y="18.87" width="117.24" height="15.84"/>
+  <rect class="cls-3" x="5.38" y="34.7" width="117.24" height="81.12"/>
+  <line class="cls-6" x1="18.29" y1="12.17" x2="18.29" y2="25.09"/>
+  <line class="cls-6" x1="109.7" y1="12.17" x2="109.7" y2="25.09"/>
+  <line class="cls-6" x1="48.76" y1="12.17" x2="48.76" y2="25.09"/>
+  <line class="cls-6" x1="79.23" y1="12.17" x2="79.23" y2="25.09"/>
+  <path class="cls-2" d="m48.38,69.12s-18.75-1.58-12.67,19.8c6.07,21.39,26.12,17.95,26.12,17.95,0,0-9.22-7.92-5-23.23,4.22-15.31-8.45-14.52-8.45-14.52Z"/>
+  <path class="cls-4" d="m61.83,106.88s-26.89-17.36-8.14-50.9"/>
+  <polyline class="cls-4" points="44.23 102.39 48.91 89.78 55.77 92.94"/>
+  <polyline class="cls-4" points="35.71 88.93 47.07 77.52 56.83 83.65"/>
+  <path class="cls-2" d="m74.79,53.7s18.75-1.58,12.67,19.8c-6.07,21.39-26.12,17.95-26.12,17.95,0,0,9.22-7.92,5-23.23s8.45-14.52,8.45-14.52Z"/>
+  <path class="cls-4" d="m61.35,91.46s26.89-17.36,8.14-50.9"/>
+  <polyline class="cls-4" points="78.95 86.97 74.27 74.36 67.41 77.52"/>
+  <polyline class="cls-4" points="87.47 73.51 76.1 62.1 66.35 68.23"/>
+  <rect class="cls-5" x="-3713.87" y="-850.06" width="6562.35" height="1176.7"/>
+</svg>

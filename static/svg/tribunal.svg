@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3d587;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #e9cb61;
+      }
+
+      .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #d6d6d6;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-4" x="23.15" y="109.1" width="78.22" height="7.1"/>
+    <rect class="cls-4" x="32.21" y="101.99" width="60.11" height="7.1"/>
+    <rect class="cls-4" x="27.28" y="60.56" width="69.96" height="7.1"/>
+    <rect class="cls-4" x="35.37" y="67.66" width="12.06" height="34.33"/>
+    <rect class="cls-4" x="56.23" y="67.66" width="12.06" height="34.33"/>
+    <rect class="cls-4" x="77.1" y="67.66" width="12.06" height="34.33"/>
+    <polygon class="cls-4" points="21.71 60.56 102.82 60.56 60.16 36.8 21.71 60.56"/>
+    <circle class="cls-4" cx="62.26" cy="56.18" r="7.5"/>
+  </g>
+  <circle class="cls-5" cx="89.6" cy="31.24" r="23.95"/>
+  <path class="cls-2" d="m89.24,21.26h1.07c1.04,0,1.89.85,1.89,1.89v14.77h-4.85v-14.77c0-1.04.85-1.89,1.89-1.89Z"/>
+  <line class="cls-3" x1="89.78" y1="21.26" x2="89.78" y2="18.84"/>
+  <line class="cls-3" x1="74.16" y1="23.82" x2="105.68" y2="23.82"/>
+  <path class="cls-1" d="m81.92,33.69c0,2.72-2.21,4.93-4.93,4.93s-4.93-2.21-4.93-4.93h9.86Z"/>
+  <polyline class="cls-3" points="72.06 33.69 77.18 23.82 81.92 33.69"/>
+  <path class="cls-1" d="m107.14,33.69c0,2.72-2.21,4.93-4.93,4.93s-4.93-2.21-4.93-4.93h9.86Z"/>
+  <polyline class="cls-3" points="97.28 33.69 102.4 23.82 107.14 33.69"/>
+  <rect class="cls-1" x="85.82" y="37.92" width="7.96" height="3.34"/>
+  <rect class="cls-1" x="79.67" y="41.46" width="19" height="3.34"/>
+  <rect x="88.05" y="17.69" width="3.5" height="1.15"/>
+  <rect class="cls-6" x="-432.51" y="-47.79" width="889.3" height="495.34"/>
+</svg>

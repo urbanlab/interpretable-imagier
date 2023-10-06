@@ -1,0 +1,144 @@
+category_label,category_index
+Alimentation,1.0.0
+Légumes et fruits,1.1.0
+Produit laitier,1.2.0
+S'alimenter,1.3.0
+Alimentation enfant/bébé,1.4.0
+Produits gras et sucrés,1.5.0
+Féculent viande poisson oeuf,1.6.0
+Boisson,1.7.0
+Céréale,1.8.0
+A propos du repas,1.9.0
+Santé,2.0.0
+Médication,2.1.0
+Hygiène,2.2.0
+Addiction,2.3.0
+Ecran,2.4.0
+Problème cutané,2.5.0
+Douleur et fièvre,2.6.0
+Asthme et allergie,2.7.0
+Sel urine régurgitation,2.8.0
+Sommeil,2.9.0
+Santé mentale,2.10.0
+Autonomie,2.11.0
+Déplacement,2.12.0
+Vue et audition,2.13.0
+5 sens,2.14.0
+Position,2.15.0
+Habillement,2.16.0
+Corps,2.17.0
+Service d'urgence,2.18.0
+Acteur spécialiste,2.19.0
+Menstruations,2.20.0
+Contraception sexualité,2.21.0
+Grossesse,2.22.0
+Accouchement,2.23.0
+Violence sécurité,2.24.0
+Développement psychomoteur,2.25.0
+Document,2.26.0
+Handicap,2.27.0
+Dentition,2.28.0
+Prévention,2.29.0
+Analyse diagnostic,2.30.0
+Administratif,3.0.0
+Transport,3.1.0
+Ressources,3.2.0
+Identité,3.3.0
+Personne étrangère,3.4.0
+Santé,3.5.0
+Logement,3.6.0
+Droits et aides,4.0.0
+Métropole de Lyon,4.1.0
+Autre,4.2.0
+Autonomie,5.0.0
+Diagnostic,5.1.0
+Alimentation,5.2.0
+Droit aide,5.3.0
+Accueil,6.0.0
+Rendez-vous,6.1.0
+Cadre et habitudes de vie,7.0.0
+Habitat,7.1.0
+Type de logement,7.1.1
+Equipement du logement,7.1.2
+Insalubrité,7.1.3
+Problème du logement,7.1.4
+Environnement du logement,7.1.5
+Mode de garde,7.2.0
+Emploi,7.3.0
+Transport,7.4.0
+Activité domestique,7.5.0
+Loisir,8.0.0
+Jeu activité,8.1.0
+Lieu,8.2.0
+Ressources finances paiement,10.0.0
+Habillement,11.0.0
+Individu famille,12.0.0
+Individu,12.1.0
+Famille,12.2.0
+Autre,12.3.0
+Général,13.0.0
+Géographie,13.1.0
+Emotion,13.2.0
+Objet du quotidien,13.3.0
+Bébé enfant,13.3.1
+Repas,13.3.2
+Hygiène,13.3.3
+Ameublement logement,13.3.4
+Equipement technologique électrique,13.3.5
+Autre objet,13.3.6
+Transport,13.3.7
+Habit,13.3.8
+Autonomie handicap,13.3.9
+Saison,13.4.0
+Météo,13.5.0
+Question smiley discussion,13.6.0
+Action,13.7.0
+Echelle valeur repere temps,13.8.0
+Animal,13.9.0
+Symbole,13.10.0
+Administration partenaire acteur association,14.0.0
+Santé,14.1.0
+Social,14.2.0
+Premières nécessités,14.3.0
+Loisir,14.4.0
+Administration française,14.5.0
+Autre acteur,14.6.0
+Métropole de Lyon,14.7.0
+Justice,14.8.0
+Migrant,15.0.0
+Famille,15.1.0
+Parcours migratoire,15.2.0
+Administratif,15.3.0
+Premières nécessités,15.4.0
+Ressources aides droits,15.5.0
+Partenaire,15.6.0
+Identité,15.7.0
+Logement,15.8.0
+Femme,16.0.0
+Accouchement,16.1.0
+Allaitement,16.2.0
+Menstruations,16.3.0
+Grossesse,16.4.0
+Prévention,17.0.0
+Bébé enfant,18.0.0
+Alimentation,18.1.0
+Lieu,18.2.0
+Scolarité mode de garde,18.3.0
+Santé,18.4.0
+Objet,18.5.0
+Corps,18.6.0
+Autre,18.7.0
+Habillement,18.8.0
+Prévention,18.9.0
+Sommeil,18.10.0
+Handicap,19.0.0
+Alimentation,19.1.0
+Autonomie droit aide,19.2.0
+Aide technique,19.3.0
+Aide humaine,19.4.0
+Personne âgée,20.0.0
+Autonomie droit aide,20.1.0
+Alimentation,20.2.0
+Aide technique,20.3.0
+Aide humaine,20.4.0
+Santé,20.5.0

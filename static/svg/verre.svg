@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfe6fc;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m95.77,17.78h2.55c1.55,0,2.81-1.26,2.81-2.81v-.71c0-1.55-1.26-2.81-2.81-2.81H29.68c-1.55,0-2.81,1.26-2.81,2.81v.71c0,1.55,1.26,2.81,2.81,2.81h2.55"/>
+  <polyline class="cls-2" points="34.13 42.93 32.22 17.78 60.93 17.78 95.77 17.78 93.88 42.93"/>
+  <path class="cls-1" d="m93.88,42.93l-3.07,40.67-2.11,27.87c-.21,2.86-2.59,5.07-5.46,5.07h-38.48c-2.86,0-5.25-2.21-5.47-5.07l-2.1-27.87-3.07-40.67h59.75Z"/>
+  <polygon class="cls-3" points="37.2 83.6 37.19 83.6 34.13 42.93 37.2 83.6"/>
+  <rect class="cls-4" x="-4801.4" y="-195.18" width="6562.35" height="1176.7"/>
+</svg>

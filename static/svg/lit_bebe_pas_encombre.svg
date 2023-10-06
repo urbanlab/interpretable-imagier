@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #87ccf3;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        fill: #b4eac3;
+      }
+
+      .cls-3 {
+        fill: #fab0b4;
+      }
+
+      .cls-9 {
+        fill: #bbfedb;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        fill: #f3d587;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+
+      .cls-8 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="42.39" y="91.64" width="107.31" height="8.29"/>
+  <g>
+    <rect class="cls-6" x="42.49" y="57.92" width="107.21" height="41.37"/>
+    <g>
+      <rect class="cls-4" x="42.49" y="57.92" width="107.21" height="5.67"/>
+      <rect class="cls-4" x="149.7" y="54.41" width="5.51" height="68.74" transform="translate(304.92 177.56) rotate(180)"/>
+      <rect class="cls-4" x="42.49" y="99.3" width="107.21" height="13.31"/>
+      <circle class="cls-4" cx="152.46" cy="50.46" r="4.56"/>
+      <rect class="cls-4" x="36.88" y="54.41" width="5.51" height="68.74" transform="translate(79.27 177.56) rotate(180)"/>
+      <rect class="cls-4" x="53.52" y="63.6" width="5.51" height="35.7" transform="translate(112.56 162.9) rotate(180)"/>
+      <rect class="cls-4" x="69.45" y="63.6" width="5.51" height="35.7" transform="translate(144.42 162.9) rotate(180)"/>
+      <rect class="cls-4" x="85.38" y="63.6" width="5.51" height="35.7" transform="translate(176.27 162.9) rotate(180)"/>
+      <rect class="cls-4" x="101.3" y="63.6" width="5.51" height="35.7" transform="translate(208.12 162.9) rotate(180)"/>
+      <rect class="cls-4" x="117.23" y="63.6" width="5.51" height="35.7" transform="translate(239.98 162.9) rotate(180)"/>
+      <rect class="cls-4" x="133.16" y="63.6" width="5.51" height="35.7" transform="translate(271.83 162.9) rotate(180)"/>
+      <circle class="cls-4" cx="39.64" cy="50.46" r="4.56"/>
+    </g>
+    <polyline class="cls-6" points="39.64 45.9 39.64 19.81 62.6 19.81 62.6 27.67 48.31 36"/>
+    <polyline class="cls-6" points="62.67 19.81 62.67 27.67 76.96 36"/>
+    <line class="cls-6" x1="62.6" y1="27.67" x2="62.6" y2="35.17"/>
+    <rect class="cls-1" x="60.47" y="35.34" width="4.26" height="4.26" transform="translate(44.83 -33.29) rotate(45)"/>
+    <rect class="cls-2" x="46.14" y="35.34" width="4.26" height="4.26" transform="translate(85.75 -10.81) rotate(90)"/>
+    <rect class="cls-3" x="74.44" y="35.46" width="5.04" height="5.04" rx="2.52" ry="2.52" transform="translate(49.39 -43.3) rotate(45)"/>
+  </g>
+  <g>
+    <rect class="cls-9" x="85.4" y="14.89" width="29.47" height="29.47" rx="4.14" ry="4.14"/>
+    <path class="cls-6" d="m114.88,27.29v12.93c0,2.28-1.86,4.14-4.14,4.14h-21.2c-2.28,0-4.14-1.86-4.14-4.14v-21.2c0-2.28,1.86-4.14,4.14-4.14h21.2"/>
+    <polyline class="cls-8" points="89.48 23.59 100.14 38.88 118.13 14.89"/>
+  </g>
+  <rect class="cls-7" x="-5096.91" y="-5317" width="6467.34" height="6437.3"/>
+</svg>

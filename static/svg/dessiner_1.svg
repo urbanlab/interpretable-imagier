@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b2f0e9;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #fab0b4;
+      }
+
+      .cls-4 {
+        stroke-width: .5px;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        stroke: #ff6d75;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-2" points="8.39 58.09 46.23 104.02 120.94 104.02 77.93 58.09 8.39 58.09"/>
+  <polygon class="cls-1" points="85.81 81.73 85.09 79.84 83.48 81.26 96.05 19.07 100.71 20.01 88.14 82.2 87.42 80.31 85.81 81.73"/>
+  <rect class="cls-2" x="97.26" y="15.8" width="2.79" height="4.75" transform="translate(136.01 -74.93) rotate(101.42)"/>
+  <rect class="cls-3" x="96.81" y="12.11" width="5.3" height="4.19" transform="translate(65.83 108.88) rotate(-78.58)"/>
+  <polygon class="cls-2" points="83.81 91.65 83.7 88.18 83.48 81.26 85.09 79.84 85.81 81.73 87.42 80.31 88.14 82.2 85.26 88.5 83.81 91.65"/>
+  <polygon points="84.24 89.52 84.15 86.53 85.48 86.8 84.24 89.52"/>
+  <line class="cls-4" x1="98.82" y1="21.37" x2="87.35" y2="78.16"/>
+  <line class="cls-4" x1="97.26" y1="21.05" x2="85.79" y2="77.84"/>
+  <polygon class="cls-7" points="50.91 64.17 45.31 78.71 71.78 75.99 50.91 64.17"/>
+  <polyline class="cls-6" points="45.31 78.71 54.21 97.05 83.18 91.78"/>
+  <polyline class="cls-6" points="66.35 94.84 62.04 86.33 68.13 85.57 71.96 93.82"/>
+  <rect class="cls-5" x="-4960.93" y="-2762.19" width="6467.34" height="6437.3"/>
+</svg>
