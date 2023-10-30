@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  frontend:
+    container_name: dev-interpretable-imagier
+    profiles:
+      - dev
+    build: 
+      context: .
+      target: "dev"
+    volumes:
+      - ./src/:/app/src
+      - ./static/:/app/static
+    ports:
+      - "5173:5173" #keep same port to avoid Cross scripting errors
+  frontend-prod:
+    container_name: prod-interpretable-imagier
+    profiles:
+      - prod
+    build: 
+      context: .
+      target: "prod"
+    ports:
+      - "8001:80" #keep same port to avoid Cross scripting errors
