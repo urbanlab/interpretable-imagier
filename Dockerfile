@@ -3,6 +3,7 @@ FROM node:lts as dev
 WORKDIR /app
 
 COPY src/ /app/src
+COPY static/ /app/static
 COPY .prettierignore /app/..prettierignore
 COPY .prettierrc /app/.prettierrc
 COPY package.json /app/package.json

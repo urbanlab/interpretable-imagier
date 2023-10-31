@@ -17,7 +17,6 @@
 
 	async function parse() {
 		const mainCatLines = await parseCSV('/main.csv');
-		console.log(typeof mainCatLines);
 		const catLines = await parseCSV('/category.csv');
 		const itemLines = await parseCSV('/items.csv');
 
@@ -49,10 +48,6 @@
 	}
 
 	function removeItem(categoriesIndex, categoryIndex, itemIndex) {
-		console.log('removeItem', categoryIndex, itemIndex);
-		console.log(
-			displayedCategories[categoriesIndex].sub_categorie_items[categoryIndex].items[itemIndex]
-		);
 		const spliced = displayedCategories.filter((cat, catIndex) => {
 			if (catIndex === categoriesIndex) {
 				cat.sub_categorie_items[categoryIndex].items.splice(itemIndex, 1);
