@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
 	let mainCategories = [];
@@ -15,10 +16,13 @@
 	}
 	let display = false;
 
+	let url = $page.url.href
+
+
 	async function parse() {
-		const mainCatLines = await parseCSV('/main.csv');
-		const catLines = await parseCSV('/category.csv');
-		const itemLines = await parseCSV('/items.csv');
+		const mainCatLines = await parseCSV(url +'main.csv');
+		const catLines = await parseCSV(url +'category.csv');
+		const itemLines = await parseCSV(url +'items.csv');
 
 		let categories = catLines.map(([category_label, category_index]) => ({
 			category_index: category_index.replace('\r', ''), // Remove the carriage return "\r
@@ -162,7 +166,7 @@
 													/></svg
 												>
 											</button>
-											<img src={'/svg/' + item.pictogram_file + '.svg'} alt={item.pictogram_label} />
+											<img src={url +'svg/' + item.pictogram_file + '.svg'} alt={item.pictogram_label} />
 											<p>{item.pictogram_label}</p>
 										</li>
 									{/each}
