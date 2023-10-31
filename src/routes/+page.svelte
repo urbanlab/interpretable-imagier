@@ -147,7 +147,7 @@
 							<ul class="flex flex-wrap justify-center">
 								{#if category?.items}
 									{#each category.items as item, itemIndex}
-										<li class="w-1/3 md:w-1/5 lg:w-1/6  border border-solid border-r-4 rounded-lg m-1">
+										<li class="w-1/3 md:w-1/5 lg:w-1/6 print:w-1/5 border border-solid border-r-4 rounded-lg m-1">
 											<button
 												class="print:hidden absolute -m-2 hover:scale-125"
 												on:click={() => removeItem(categoriesIndex, categoryIndex, itemIndex)}
