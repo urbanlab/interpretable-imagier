@@ -1,14 +1,13 @@
 pictogram_label,pictogram_file,pictogram_category,pictogram_metadata
 A des dettes,a_des_dettes,15.5.0;3.2.0;10.0.0,argent;pauvre;endetté;débiteur;créancier;payer;charges
 A un animal,a_un_animal,7.1.5;13.9.0,chien;chat;lapin;poule;vétérinaire;animal de compagnie;dresser
-Abondance des règles,abondance_des_saignements,16.3.0;2.20.0,règles;menstruations;cycle menstruel
-Abondance des règles 2,abondance_des_saignements_2,2.20.0;16.3.0,règles;menstruations;cycle menstruel
+Abondance des règles 2,abondance_des_saignements,16.3.0;2.20.0,règles;menstruations;cycle menstruel
+Abondance des règles 3,abondance_des_saignements_2,2.20.0;16.3.0,règles;menstruations;cycle menstruel
 Abricot,abricot,1.1.0,abricot;fruit
 Acariens,acariens,2.5.0;13.9.0;2.2.0;2.5.0,logement;insalubrité;nuisible;insecte
-Accouchement hôpital,accouchement_a_l_hopital,16.1.0;2.23.0;16.4.0;2.22.0,accouchement;hopital;maternité
-Accouchement,accouchement_a_l_hopital,16.1.0;2.23.0,accoucher;enceinte;maison;grossesse;sage-femme;bébé;naissance
+Accouchement à l'hôpital,accouchement_a_l_hopital,16.1.0;2.23.0;16.4.0;2.22.0,accoucher;enceinte;maison;grossesse;sage-femme;bébé;naissance;accouchement;hopital;maternité
 Accouchement maison,accouchement_a_la_maison,16.1.0;2.23.0,accouchement;émotion;vécu;femme;grossesse;bébé;accoucher
-Ressenti accouchement,accouchement_forceps,16.1.0;2.23.0,accouchement;accoucher;enfanter;donner naissance
+Accouchement aux forceps,accouchement_forceps,16.1.0;2.23.0,accouchement;accoucher;enfanter;donner naissance
 Césarienne,accouchement_par_cesarienne,16.1.0;2.23.0,accouchement;accoucher;enfanter;donner naissance
 Accouchement voie basse,accouchement_par_voie_basse,16.1.0;2.23.0,accouchement;accoucher;enfanter;donner naissance
 Adolescent,adolescent,12.1.0;12.2.0;18.0.0,adolescent;crise;acnée
@@ -20,8 +19,7 @@ Aider pour se laver,aide_laver,13.7.0;5.1.0;20.1.0;20.4.0;19.4.0;2.30.0,hygiène
 Aider pour se lever,aide_lever,13.7.0;5.1.0;2.30.0,coucher;lever;dormir;lit;personne âgée;handicap;aidant;aider;autonomie;dépendance
 Aider pour manger,aide_manger,13.7.0;5.1.0;1.9.0;2.30.0,manger;repas;se nourrir;s'alimenter;déjeûner;dîner;souper;petit-déjeuner;goûter;personne âgée;handicap;aidant;aider;autonomie;dépendance
 Aide ménagère,aide_menagere,14.2.0;5.3.0;2.11.0;12.3.0,aide ménagère;femme de ménage;homme de ménage;ménage;aidant
-Aides métropole,aides_deja_acquises,4.1.0;14.7.0,aides;acquises;allocations;primes d'activités
-Droit et aide,aides_deja_acquises,19.2.0;20.1.0;4.1.0;4.2.0;15.5.0,aides;acquises;allocations;primes d'activités
+Aides métropole,aides_deja_acquises,19.2.0;20.1.0;4.1.0;4.2.0;15.5.0;14.7.0,aides;acquises;allocations;primes d'activités
 Alcool,alcool,2.3.0;13.3.6;17.0.0;13.3.0,Alcool;boire;vin;whysky;rhum;vodka;gin;bière
 Allaitement,allaitement,1.4.0;1.2.0;18.1.0;16.2.0,allaitement;lait;alimentation bébé;sein
 Allaiter debout allongé,allaitement_debout_allonge,1.4.0;1.2.0;18.1.0;16.2.0,allaitement;position;debout : allongé
@@ -42,12 +40,11 @@ Appeler,appeler_composer_un_numero,13.7.0;5.1.0,téléphone;portable; ligne tél
 Araignée,araignee,13.9.0,insecte;piqûre
 Ascenseur,ascenseur,13.3.0;7.1.2,monter;descendre;immeuble;étage;escalier
 Asie,asie,13.1.0,continent;territoire;pays;origine;asie
-Aspirateur,aspirateur,13.3.0;7.1.2;13.3.3;11.5.0;13.3.0,aspirateur;nettoyer;ménage;aspirer;poussière
+Aspirateur,aspirateur,13.3.0;7.1.2;13.3.3;7.5.0,aspirateur;nettoyer;ménage;aspirer;poussière
 Assiette,assiette,13.3.0;7.1.2;1.9.0;13.3.0;20.2.0,assiette;couvert;manger;à table ;repas
-Assiette avec repas,assiette_avec_repas,1.0.0;13.3.2;13.3.0,manger;assiette;plat;couverts;ingrédients;nourriture;
-Alimentation,assiette_avec_repas,19.1.0;20.2.0;1.3.0;5.2.0;15.4.0,manger;assiette;plat;couverts;ingrédients;nourriture;
-Assistante sociale,assistant_social,14.2.012.3.0,assistante sociale;aides
-Sécurité sociale,assurance_maladie,14.0.0,ameli;cpam;assurance;couverture;maladie;remboursement santé
+Assiette avec repas,assiette_avec_repas,19.1.0;20.2.0;1.3.0;5.2.0;15.4.0;1.0.0;13.3.2;13.3.0,manger;assiette;plat;couverts;ingrédients;nourriture;
+Assistante sociale,assistant_social,14.2.0;12.3.0,assistante sociale;aides
+Assurance maladie,assurance_maladie,2.0.0;2.19.0;2.26.0;3.0.0;3.5.0;4.0.0;4.2.0;5.3.0;10.0.0;14.0.0;14.1.0;14.5.0;15.3.0;15.5.0;18.4.0;19.2.0;20.1.0;20.5.0,cpam;ameli;santé;caisse primaire d'assurance maladie;CMU;frais de santé;prise en charge;soins;mdécine;hôpital;clinique;remboursement
 Aubergine,aubergine,1.1.0,aubergine;fruits
 Automne,automne,13.4.0,saison;automne;calendrier
 Auxiliaire de vie,auxilliaire_de_vie,20.4.0;19.4.0;14.1.0;14.2.0;2.19.0;12.3.0;7.5.0,auxiliaire de vie;aide;assistance;aidant
@@ -55,7 +52,6 @@ Avion,avion,7.4.0;15.2.0;13.3.7;13.3.0,avion;jet;moyen de transport;voler
 Avis d'imposition,avis_d_imposition,3.2.0;15.3.0,impôts : avis d'imposition
 Babyphone,babyphone,13.3.1;2.9.0;18.5.0,babyphone;interphone
 Baignoire,baignoire,13.3.3;2.2.0;13.3.0,bain;baignoire;se laver
-Baignoire adulte,baignoire_2,13.3.3;2.2.0;13.3.0,bain;baignoire;se laver
 Baignoire bébé,baignoire_bebe,13.3.1;18.5.0;13.3.3;2.2.0;13.3.0,baignoire;bébé;laver;bain;toilette;soins
 Baignoire bébé,baignoire_bebe_2,13.3.1;18.5.0;13.3.3;2.2.0;13.3.0,baignoire;bébé;laver;bain;toilette;soins
 Bains douches,bains_douches,2.2.0;15.4.0;14.3.0,Bains douches;prendre une douche;douche gratuite;se laver gratuitement
@@ -64,13 +60,12 @@ Barre d'appui,barre_d_appui_douche,7.1.2;19.3.0;20.3.0,barre;appui;aider;soutien
 Bas du corps femme,bas_du_corps_femme,2.17.0,femme;fille;bas; fesse;jambes;pied;sexe
 Bas du corps homme,bas_du_corps_homme,2.17.0,homme;garçon;bas;fesse;jambes;pied;sexe
 Bâteau,bateau,7.4.0;15.2.0;13.3.7;13.3.0,Bateau;navire
-Bébé,bebe,12.1.0;12.2.0;18.0.0,bébé;nourrison
-Enfant / bébé,bebe,12.1.0,bébé;nourrison
+Enfant / bébé,bebe,12.1.0;12.2.0;18.0.0,bébé;nourrison
 Bébé à 4 pattes,bebe_a_quatre_pattes,18.6.0;12.1.0;2.25.0,bébé à 4 pattes;position;se déplacer;marcher; 4 pattes
 Bébé assis,bebe_assis,18.6.0;12.1.0;2.25.0,bébé assis;asseoir;position
 Bébé au sein,bebe_au_sein,1.4.0;1.2.0;18.1.0,bébé;sein;allaitement;nourrir;alimentation 
 Bébé dort,bebe_dort,2.9.0,sommeil;bébé;dormir;sieste
-Bébé dort,bebe_dort_matelas,2.9.0,sommeil;bébé;dormir;sieste
+Bébé dort 2,bebe_dort_matelas,2.9.0,sommeil;bébé;dormir;sieste
 Bébé dort sur le dos,bebe_dort_sur_dos,2.9.0,sommeil;bébé;dormir;sieste
 Bébé dort sur le ventre,bebe_dort_sur_ventre,2.9.0,sommeil;bébé;dormir;sieste
 Mal aux oreilles bébé,bebe_douleurs_aux_oreilles,18.4.0;2.6.0;2.13.0,mal aux oreilles;bébé;audition
@@ -82,9 +77,9 @@ Mal à la tête bébé,bebe_mal_de_tete,18.4.0;2.6.0;2.13.0,mal à la tête;béb
 Nez qui coule bébé,bebe_nez_qui_coule,18.4.0;2.6.0;2.13.0,nez qui coule;rhume;bébé;se moucher
 Bébé marche,bebe_qui_marche,18.6.0;12.1.0;2.25.0,bébé marche;se déplacer;debout
 Bébé tient le doigt,bebe_qui_tient_le_doigt,2.25.0,bébé tient le doigt;s'accrocher;marcher;se déplacer
-Bébé sur le côté,bebe_sur_le_cote,18.6.02.25.0,bébé;nourrison;allongé
-Bébé de face,bebe_sur_le_dos,18.6.02.25.0,bébé;nourrison;allongé
-Bébé sur le ventre,bebe_sur_le_ventre,18.6.02.25.0,bébé;nourrison;allongé
+Bébé sur le côté,bebe_sur_le_cote,18.6.0;2.25.0,bébé;nourrison;allongé
+Bébé de face,bebe_sur_le_dos,18.6.0;2.25.0,bébé;nourrison;allongé
+Bébé sur le ventre,bebe_sur_le_ventre,18.6.0;2.25.0,bébé;nourrison;allongé
 Bébé tête en bas,bebe_tete_en_bas,16.1.0;2.23.0;16.4.0;2.22.0,bébé;ventre;grossesse;tête en bas
 Bébé tête en haut,bebe_tete_en_haut,16.1.0;2.23.0;16.4.0;2.22.0,bébé;en siège;fesses en bas;tête en haut;ventre
 Bébé tête en haut ou bas,bebe_tete_en_haut_ou_en_bas,16.1.0;2.23.0;16.4.0;2.22.0,bébé;tête;accouchement;naissance
@@ -121,11 +116,11 @@ Transport,bus,7.4.0;13.3.7;15.2.0;13.3.0,bus;car;autobus;TCL;transports en commu
 Buste femme,buste_femme,2.17.0,femme;buste;haut du corps;poitrine;épaules;fille;bras
 Buste homme,buste_homme,2.17.0,homme;buste;haut du corps;pectauraux;épaules;garçon;bras
 Cafard,cafard,2.5.0;13.9.0;2.2.0;2.5.0,Logement;insalubrité;nuisible;insecte
-Caisse allocation familiale,caisse_d_allocations_familiales,"14.5.0;3,.2.0",CAF;Caisse d'Allocation Familiale;allocations
+Caisse allocation familiale,caisse_d_allocations_familiales,14.5.0;3.2.0,CAF;Caisse d'Allocation Familiale;allocations
 Canapé,canape,13.3.0;7.1.2;13.3.0,canapé;salon;assis;TV;repos;aliter
 En cas de canicule,canicule,18.9.0;2.29.0,chaleur;insolation;déshydratation;soleil;sécheresse;coup de soleil
-Cannabis,cannabis,2.3.0;17.0.013.3.0,canabis;shit;marijuana;chanvre;hachisch;drogue
-Canne,canne,19.3.0;20.3.0;13.3.9;13.3.0;,canne;bâton;aide pour se déplacer
+Cannabis,cannabis,2.3.0;17.0.0;13.3.0,canabis;shit;marijuana;chanvre;hachisch;drogue
+Canne,canne,19.3.0;20.3.0;13.3.9;13.3.0,canne;bâton;aide pour se déplacer
 Cantine,cantine,18.1.0;1.4.0,cantine;manger;restaurant;alimentation;école
 Carnet de santé,carnet_de_sante,3.5.0;2.26.0;18.0.0,carnet de santé;carnet;santé
 Carotte,carotte,1.1.0,carotte;légumes;diarhée
@@ -141,9 +136,8 @@ Carte Técély,carte_tecely,3.1.0;7.4.0,carte técély;carte de bus;carte de mé
 Casquette adulte,casquette_adulte,2.16.0;13.3.8;13.3.0,coup de soleil;chaleur;se protéger;insolation;faire attention;prévention;accessoire;vêtement;habit
 Casquette enfant,casquette_enfant,18.8.0;18.9.0;2.29.0,soleil;bébé;se protéger;chaleur;vêtement;tête;coup de soleil;insolation
 Poêle,casserolle_poele,13.3.0;7.1.2;1.9.0;19.1.0;20.2.0,plat;manger;repas;cuisiner;cuire;poêle;cuisson
-CDHS,CDHS,14.1.02.19.0,Comité Départemental d'Hygiène Sociale;CDHS
-Loisirs,centre_de_loisirs,8.2.0;18.2.0,
-Centre de loisirs,centre_de_loisirs,20.0.0,loisirs;activités;enfants;lieux;sortie;jeux;centre de loisirs;activités extra-scolaire
+CDHS,CDHS,14.1.0;2.19.0,Comité Départemental d'Hygiène Sociale;CDHS
+Centre de loisirs,centre_de_loisirs,20.0.0;8.2.0;18.2.0,loisirs;activités;enfants;lieux;sortie;jeux;centre de loisirs;activités extra-scolaire
 Centre médico-psychiatrique,centre_medico_psychiatrique,14.1.0;2.10.0;2.19.0,CMP;Centre médico psychiatrique;psychologie;prise en charge
 Cerise,cerise,1.1.0,cerise;fruit;noyau
 Chaise,chaise,13.3.0;7.1.2;13.3.0;13.3.4,ameublement;chaise;assis;repas;table;bureau
@@ -155,8 +149,8 @@ Charger le téléphone,charger_le_telephone,13.7.0;5.1.0,batterie;chargeur;tél�
 Chauffe-lait,chauffe_lait,1.4.0;13.3.1;18.5.0,biberon;température;chauffer;chauffe-lait
 Chaussettes,chaussettes,2.16.0;18.8.0;13.3.8;13.3.0,pieds;chaussette;chaud;chaussures;contention;chausson
 Chaussure à lacets,chaussures_a_lacets,2.16.0;18.8.0;13.3.8;13.3.0,pieds;chaussure;lacets;basket;marcher
-Chèque,cheque,15.5.0;3.2.0;10.0.0,argent;payer;mode de paiement;RIB;chèque;banque
-Chèque,cheque_2,15.5.0;3.2.0;10.0.0,argent;paiement;frais;dépense
+Chèque,cheque,15.5.0;3.2.0;10.0.0,argent;payer;mode de paiement;RIB;chèque;banque;frais;dépense
+Chèque,cheque_2,15.5.0;3.2.0;10.0.0,argent;payer;mode de paiement;RIB;chèque;banque;frais;dépense
 Cheveux,cheveux,2.17.0,cheuveux;long;court;perte;crâne;cuir chevelu
 Chèvre,chevre,1.6.0;13.9.0,chèvre;animal
 Chez un ami/famille,chez_un_ami_ou_de_la_famille,7.1.1;7.1.5;15.8.0,dors chez un ami;dors chez la famille
@@ -176,10 +170,10 @@ Comptine,comptine,13.7.0;8.1.0;18.10.0;2.25.0,chanter;comptine;enfant;chanson
 Concombre,concombre,1.1.0,concombre ; légumes
 Confiture,confiture,1.1.0;1.5.0,confiture;sucre;tartines
 Conseiller conjugual,conseiller_conjugal_famillial,14.2.0;15.5.0;15.6.0,conseillère conjuguale familiale;conseiller conjugual familial
-Console de jeux,manette_de_console,13.3.0;7.1.2;8.1.0;13.3.5,enfant;jeux;console de jeux;écran;manette
+Manette de console de jeux,manette_de_console,13.3.0;7.1.2;8.1.0;13.3.5,jouer;vidéo;play;écran;playstation;xbox;jeu électronique;console;game;gamer;ordinateur;enfant;jeu;manette;console de jeux
 Console de jeux portable,console_de_jeux,13.3.0;7.1.2;8.1.0;13.3.5,enfant;jeux;console de jeux;écran;portable
-Consommation alcool,consommation_alcool,2.3.0;17.0.013.3.0,alcool;boire;danger;verre
-Consommation tabac,consommation_de_tabac,2.3.017.0.0,tabac;cigarette;fumer;danger
+Consommation alcool,consommation_alcool,2.3.0;17.0.0;13.3.0,alcool;boire;danger;verre
+Consommation tabac,consommation_de_tabac,2.3.0;17.0.0,tabac;cigarette;fumer;danger
 Contacts au pays,contact_au_pays,15.1.0,contacts avec la famille au pays;famille restée au pays;parents;enfants;cousins;grand-parents;émigré;immigré;migrant
 Content,content,2.10.0;13.2.0;12.3.0,émotion;content;satisfait; heureux
 Sexualité,contraception,2.21.0,contraception;moyen de contraception
@@ -205,7 +199,7 @@ Cuillère,cuillere,13.3.0;7.1.2;1.9.0;20.2.0,cuillère;enfant;manger;couvert;rep
 Dosage médicament,cuillere_doseuse_medicament,2.1.0;13.3.1;13.3.0,médicament;dosage;cuillère;mesurer;quantité
 Cuisinière,cuisiniere,13.3.0;7.1.2;1.9.0;20.2.0;13.3.4,cuisinière;cuisiner;cuisine;chauffer;plat;four;plaque de cuisson; manger
 Culotte,culotte,13.3.2;13.3.5;13.3.4;13.3.0;13.3.0,slip;boxer;femme;fille;adolescente;string;tanga;vêtement;habit;s'habiller
-Dans la rue,dormir_dans_la_rue,7.1.1;7.1.5;15.8.0,sans domicile fixe;sdf;dormir dans la rue
+Dormir dans la rue,dormir_dans_la_rue,7.1.1;7.1.5;15.8.0,sans domicile fixe;sdf;dormir dans la rue;précarité;à la rue;dormir dehors;sans logement
 Dans un squat,dans_un_squat,7.1.1;7.1.5;15.8.0,sans domicile fixe;squat;dors dans la rue
 Abondance des règles,date_dernieres_regles,2.20.0;16.3.0,règles;menstruations
 Déambulateur,deambulateur,19.3.0;20.3.0;13.3.9;13.3.0,déambulateur;aide pour se déplacer
@@ -231,7 +225,6 @@ Divorce,divorce,12.2.0,se séparer;séparation;couple;rupture;famille;mariage;PA
 Doigts,doigts,2.17.0,doigts;bagues;doigt
 Doliprane liquide,doliprane_liquide,2.1.0,médicament;doliprane;sirop;liquide
 Dollars,dollars,15.5.0;3.2.0;10.0.0,argent;payer;mode de paiement;billets;pièces;liquide;dollar;cash;étranger
-Précarité,dormir_dans_la_rue,15.8.0;7.1.1,femme;fille;dos; épaule;colonne 
 Dos femme,dos_femme,2.17.0,homme;garçon;dos; épaule;colonne 
 Dos homme,dos_homme,2.17.0,douche;se laver
 Douche,douche,13.3.3;2.2.0;13.3.0,douche;se laver
@@ -242,8 +235,9 @@ Douleur aux oreilles,douleur_aux_oreilles,2.17.0;2.13.0;2.6.0,douleurs;oreilles;
 Douleur aux yeux,douleur_aux_yeux,2.17.0;2.13.0;2.6.0,douleur;yeux;oeil;vision;vue
 Douleur au sein,douleur_teton,2.6.0;16.2.0,bébé;sein;douleur au sein;allaitement
 Douleur femme enceinte,douleurs_femme_enceinte,2.22.0;16.4.0;16.1.0;2.23.0;2.6.0,douleur;ventre;enceinte;contractions;foetus 
-Drogue dure,drogue_dure,2.3.0;17.0.013.3.0,drogue;toxicomanie;cocaïne;héroïne;ecstasy;crack;ghb;addiction;drogué;junky
+Drogue dure,drogue_dure,2.3.0;17.0.0;13.3.0,drogue;toxicomanie;cocaïne;héroïne;ecstasy;crack;ghb;addiction;drogué;junky
 Eau bouteille,eau_en_bouteille,1.7.0,eau;bouteille;evian
+Horloge,horloge,13.8.0;13.3.0,horloge;temps;heure;horaire;minute;seconde;date;durée
 Bien-être,echelle_de_bien_etre,13.2.0;13.8.0,émotion;mental;état;psychologie;sentiment;peur;anxiété;effrayé;stressé;sueur
 Échelle numérique,echelle_numerique,13.8.0,échelle;numérique;nombre;douleur;auto-évaluation
 Échographie Stade 1,echographie_stade_1,2.22.0;16.4.0;16.1.0;2.23.0;13.8.0,enfant;foetus;maman;enceinte;examen médical;gynécologue
@@ -257,7 +251,7 @@ Eczéma,eczema,2.5.0;18.4.0;18.6.0,eczéma;boutons;irritation
 EHPAD,ehpad,14.1.0;14.2.0;2.19.0,Hôpital;clinique;centre hospitalier;personne âgée;vieux;dépendant
 Emmaüs,emmaus,14.2.0;15.5.0;15.6.0,première nécessité;aide;association;abbé pierre;vếtements;meubles;sans papier;demandeur d'asile;sans domicile fixe;SDF
 Endormir bébé,endormir_bebe,13.7.0;2.9.0;18.10.0,dodo;enfant;soir;nuit;se reposer;berceuse;comptine;bercer;fatigue
-,enfance_en_danger,2.24.0,violence
+Violence sur enfant,enfance_en_danger,2.24.0,violence
 Enfant,enfant,12.1.0;12.2.0;18.0.0,enfant;bébé;jeune;fille;garçon
 Enfant mange seul,enfant_qui_mange_seul,1.4.0;18.1.0,enfant;manger seul;se nourrir;cuillère;fourchette;autonomie
 Enfant regarde TV,enfant_qui_regarde_la_television,17.0.0;13.7.0;18.9.0,télévision;enfant;écran
@@ -282,8 +276,8 @@ Famille élargie,famille_elargie,12.2.0,tante;oncle;grand père;grand mère;gran
 Famille monoparentale,famille_monoparentale,12.2.0,un seul parent;père;mère;famille;famille monoparentale;parent;individu;personne;enfant
 Famille recomposée,famille_recomposee,12.2.0,beau-père;belle-mère;famille recomposée;famille;nouvel union;père;mère;parent;individu;personne;enfant
 Famille au pays,famille_restee_au_pays,15.1.0,famille;père;éloignée;migrant;demandeur d'asile;expatrié;immigré;émigré;mère;parent;individu;personne;enfant;famille restée au pays
-Fatigue,fatigue_mentale,2.10.0;13.2.0;12.3.0,fatigue;émotion;état;repos;sentiment
-Fatigue,fatigue_physique,2.10.0;13.2.0;12.3.0,émotion;mental;état;psychologie;sentiment;fatigue;épuisement
+Fatigue,fatigue_mentale,2.10.0;13.2.0;12.3.0,émotion;mental;état;psychologie;sentiment;fatigue;épuisement;repos
+Fatigue 2,fatigue_physique,2.10.0;13.2.0;12.3.0,émotion;mental;état;psychologie;sentiment;fatigue;épuisement;repos
 Fauteuil roulant éléctrique,fauteuil_roulant_electrique,19.3.0;20.3.0;13.3.9;13.3.0,fauteuil roulant;fauteuil roulant électrique
 Fauteuil roulant manuel,fauteuil_roulant_manuel,19.3.0;20.3.0;13.3.9;13.3.0,fauteuil roulant;fauteuil roulant manuel
 Femme adulte,femme_adulte,12.1.0;12.2.0;16.0.0,femme;adulte;fille;féminin;sexe;genre
@@ -313,7 +307,7 @@ Gigoteuse,gigoteuse,18.8.0;2.16.0;2.9.0,pyjama;gigoteuse
 Goût bouche,gout_bouche,2.14.0,bouche;manger;palet;goût;langue
 Goût visage,gout_visage,2.14.0,bouche;manger;goût;partie;zone;visage
 Grossesse désirée 2,grossesse_desiree_emotions,2.22.0;16.4.0;16.1.0;2.23.0;13.2.0,Grossesse désirée;enceinte
-,grossesse_desiree_test,2.22.0;16.4.0;16.1.0;2.23.0;13.2.0,Grossesse désirée;enceinte;test de grossesse
+Grossesse désirée,grossesse_desiree_test,2.22.0;16.4.0;16.1.0;2.23.0;13.2.0,Grossesse désirée;enceinte;test de grossesse
 Grossesse non désirée,grossesse_non_desiree,2.22.0;16.4.0;16.1.0;2.23.0;13.2.0,Grossesse non désirée;enceinte
 Grossesse non désirée 2,grossesse_non_desiree_test,2.22.0;16.4.0;16.1.0;2.23.0;13.2.0,Grossesse non désirée;enceinte;test de grossesse
 Guêpe,guepe,13.9.0,insecte;piqûre;guêpe
@@ -330,7 +324,7 @@ Hauteur du lit,hauteur_du_lit,7.1.2;18.10.0;2.9.0,lit;hauteur;taille;dimensions;
 Hébergement précaire/temporaire,hebergement_precaire_temporaire,7.1.1;15.8.0,hébergement;abris;tente;maison;toit;précaire;temporaire;accueil
 Hiver,hiver,13.4.0,saison;hiver;calendrier;noël
 Homme adulte,homme_adulte,12.1.0;12.2.0,homme;adulte;garçon;masculin;sexe;genre
-Personne âgée Homme,homme_age,12.1.0;12.2.020.0.0,homme;agé;retraité;masculin;sexe;genre;vieux
+Personne âgée Homme,homme_age,12.1.0;12.2.0;20.0.0,homme;agé;retraité;masculin;sexe;genre;vieux
 Hôpital,hopital,14.1.0;2.19.0,Hôpital;clinique;centre hospitalier
 Hospitalisé à domicile,hospitalise_domicile,2.23.0,ambulatoire;malade;opération chirurgicale;perfusion;lit médical;infirmière
 Hospitalisé à l'hôpital,hospitalise_hopital,16.1.0;2.23.0,malade;opéré;opération chirurgicale;accouchement;problème de santé;AVC;arrêt cardiaque;jambe cassée;bras cassée;chûte;médecin;infirmière;perfusion
@@ -402,12 +396,11 @@ Lunettes,lunettes_pas_de_lunettes,2.13.0,lunettes;vue
 Mains,mains,2.17.0;2.14.0;2.13.0,mains;doigts;toucher
 Mairie,mairie,14.5.0,Mairie;Hôtel de Ville : Préfecture
 Maïs,mais,1.8.0,maïs;féculents
-Maison de la Métropole de Lyon,metropole_de_lyon,4.1.0;14.7.0;4.1.0;15.5.0;19.2.0;20.1.0,MDM;maison de la métropole;PMI;MDMPH;démarche;aide;Métropole;Lyon
+Maison de la Métropole de Lyon,metropole_de_lyon,4.1.0;14.7.0;4.1.0;15.5.0;19.2.0;20.1.0,MDM;maison de la métropole;PMI;MDMPH;démarche;aide;Métropole;Lyon;collectivité;mairie;MDML;Maison de la Métropole
 MJC,maison_des_jeunes_et_de_la_culture_mjc,20.0.0,MJC;maison des jeunes et de la culture
 maman,maman,12.1.0;12.2.0;16.0.0;18.0.0,mère;parent;femme
 Mandat SEPA,mandat_sepa,15.5.0;3.2.0;10.0.0,argent;payer;mode de paiement;mandat;RIB;SEPA; banque
 Mandat SEPA,mandat_sepa_2,15.5.0;3.2.0;10.0.0,argent;payer;mode de paiement;mandat;RIB;SEPA; banque
-Manette console de jeux,manette_de_console,13.3.0;7.1.2;8.1.0;13.3.5,jouer;vidéo;play;écran;playstation;xbox;jeu électronique;console;game;gamer;ordinateur
 Manger mal,manger_salement_proprement,2.2.0,manger mal;se salir : manger salement
 Mariage,mariage,12.2.0,divorce;amour;couple;se marier;PACS;union;famille;enfant;mairie;femme;mari;conjoint;conjointe;épouse;époux
 Matelas,matelas,13.3.0;7.1.2;18.10.0;13.3.4,dormir;chambre à coucher;s'allonger;sieste
@@ -415,17 +408,15 @@ Matelas pas trop souple,matelas_pas_trop_souple,2.9.0,matelas;bébé;chambre bé
 Matin après-midi soir,matin_apresm_soir,13.8.0,journée;période;quand;horaire
 Médecin,medecin,14.1.0;2.19.0;12.3.0,médecin;hopital 
 Médecins du monde,medecins_du_monde,14.1.0;2.19.0;15.5.0;15.6.0,aide humanitaire;médecin;médicament;première nécessité;migrant;sans papier;demandeur d'asile;secours;guerre;conflit;migrant;exil
-Médiathèque,mediatheque,20.0.0,loisirs;activités;enfants;lieux;sortie ;livre;lecture;médiathèque;musique;vidéo;bibliothèque
 Médiathèque,mediatheque,20.0.0,loisir;livres;bibliothèque;vidéothèque;lecteur;lire;emprunter;consulter;bibliothécaire;documentaliste;catalogue
 Médicament soluble,medicament_soluble,2.1.0,médicament;verre d'eau;avaler;soluble;se dissout
 Médicaments,medicaments,2.1.0,médicaments;soigner;pilules
 Melon,melon,1.1.0,melon;fruit
 Ménopause,menopause,16.3.0;2.20.0,vieillesse;femme;menstruation;règles;bouffées de chaleur;hormones;cycle féminin
 Mère et bébé,mere_bebe,12.1.0;12.2.0;16.0.0;18.0.0,maternité;enceinte;accoucher;attachement;maternel
-Métier intellectuel,metier_intellectuel,"7,3,0;12.3.0",métier;profession;cadre;ingénieur;emploi;travail
-Métier manuel,metier_manuel,"7,3,0;12.3.0",métier;profession;ouvrier;emploi;travail
-Métro,metro,7.4.013.3.7;13.3.0,transport;collectif;se déplacer;trajet;voyager;souterrain;tunnel;rame;tcl;ratp
-Métropole de Lyon,metropole_de_lyon,4.1.0;14.7.0;4.1.0;15.5.0;19.2.0;20.1.0,métropole;Lyon;collectivité;mairie
+Métier intellectuel,metier_intellectuel,7.3.0;12.3.0,métier;profession;cadre;ingénieur;emploi;travail
+Métier manuel,metier_manuel,7.3.0;12.3.0,métier;profession;ouvrier;emploi;travail
+Métro,metro,7.4.0;13.3.7;13.3.0,transport;collectif;se déplacer;trajet;voyager;souterrain;tunnel;rame;tcl;ratp
 Mettre du collyre,mettre_collyre,2.13.0,yeux secs : lentilles de contact;sérum physiologique;lunettes;vue
 Mettre la table,mettre_la_table,13.3.0;18.1.0;19.1.0;20.2.0;1.3.0;5.2.0,dresser;mettre la table;couvert;manger;repas
 Arrivé en barque,migrant_barque,15.2.0;13.7.0;8.1.0,immigrant;migrant;immigré;immigration;exil;s'enfuir;passeur;fuir ; sans papier;demandeur d'asile;réfugié;rame;gilet de sauvetage;mer;frontière;couler;se noyer
@@ -441,15 +432,15 @@ Ne parle pas,ne_parle_pas,13.7.0;2.25.0;18.7.0,muet;sourd;aphone;non verbal;phra
 Ne pas,ne_pas,13.6.0,refus;négatif;interdit;non;refuser;prohibé;ne pas
 Lit bébé encombré ,ne_pas_encombrer_lit_bebe,18.9.0;18.10.0;2.9.0;17.0.0;2.29.0;18.9.0,dormir;couchage;enfant;sieste;bazar;dangereux
 Neige,neige,13.5.0,temps;météo;neige; froid;hiver;montagne;gel;glace;glacé
-Nez,nez,2.17.0;2.14.0;2.13.0,nez ; narines;odeur;odorat;se moucher
-Nez,nez_sur_visage,2.17.0;2.14.0;2.13.0,visage;odorat;sentir
+Nez,nez,2.17.0;2.14.0;2.13.0,nez ; narines;odeur;odorat;se moucher;odorat;sentir
+Nez et visage,nez_sur_visage,2.17.0;2.14.0;2.13.0,nez ; narines;odeur;odorat;se moucher;odorat;sentir;visage
 Noix de coco,noix_de_coco,1.1.0,noix de coco;fruit
 Non,non,13.6.0,non;négatif;refus;s'exprimer
 Nourisson,nourisson,12.1.0;12.2.0;18.0.0,bébé;nourrison
 Nuage,nuageux,13.5.0,temps;météo;nuage
 Océanie,oceanie,13.1.0,continent;territoire;pays;origine;océanie
 Odorat,odorat_nez,2.14.0,odorat;nez;odeur;sentir;visage;sens;partie;zone;visage;narines
-Odorat,odorat_visage,2.14.0,odorat;nez;odeur;sentir;visage;sens;partie;zone;visage
+Odorat et visage,odorat_visage,2.14.0,odorat;nez;odeur;sentir;visage;sens;partie;zone;visage
 Œuf,oeuf,1.6.0,oeufs;protéines;poule
 Ombre,ombre,17.0.0;18.9.0;2.29.0,soleil;noir;sombre;froid;projeter
 Ongles,ongles,2.17.0,ongle;manucure;ongles
@@ -469,14 +460,14 @@ Parc pour enfants,parc_jardin_pour_enfants,18.2.0;8.2.0;2.25.0,loisirs;jeux ext�
 Parler,parler,13.7.0;2.25.0;18.7.0,parle;parler;dire des mots;prononcer
 Pas content,pas_content,2.10.0;13.2.0;12.3.0,émotion;mécontent;insatisfait; pas content;malheureux
 Pas d'écran,pas_d_ecrans,2.29.0,écran;téléphone;lumière;TV;portable;ordinateur;tablette;enfant;yeux;fatigue;lunettes
-Pas de bonbon,pas_de_bonbon,17.0.0;1.5.0;18.9.0,pas de sucette;ne pas donner la sucette 
-Pas de bonbon,pas_de_bonbon_2,18.9.0;2.29.0,confiserie;prévention;carie;dents;sucre;manger;goûter;gourmandise
+Pas de bonbon,pas_de_bonbon,18.9.0;2.29.0;17.0.0;1.5.0,pas de sucette;ne pas donner la sucette 
+Pas de bonbon 2,pas_de_bonbon_2,18.9.0;2.29.0;17.0.0;1.5.0,confiserie;prévention;carie;dents;sucre;manger;goûter;gourmandise
 Pas de tabac,pas_de_cigarette,2.3.0;17.0.0,ne pas fumer;pas de tabac
 Pas de contraception,pas_de_contraception,2.21.0,pas de contraception
-Chips,pas_de_nourriture_grasse,1.5.0,gâteau apéritif
+Pas de nourriture grasse,pas_de_nourriture_grasse,1.5.0,gâteau apéritif
 Sans papier,pas_de_papier_officiel,12.1.0;12.2.0;15.1.0,sans papier;demandeur d'asile;migrant;étranger;immigré
 Soda,pas_de_soda,1.7.0;1.5.0,coca cola;pepsi cola;orangina;schweppes;boisson sucrée;boisson gazeuze;sucre
-Viennoiserie,pas_de_sucre,1.5.0,dessert;petit-déjeuner;croissant;pain au chocolat;brioche;chou;chocolatine
+Pas de sucre,pas_de_sucre,1.5.0,dessert;petit-déjeuner;croissant;pain au chocolat;brioche;chou;chocolatine
 Pas de tétine,pas_de_tetine,17.0.0;2.28.0;18.9.0,pas de sucette;ne pas donner la sucette
 Pas de trotteur,pas_de_trotteur,17.0.0;18.9.0,trotteur;pied;debout;jambes;marcher;se déplacer;déplacement;bébé;enfant 
 Passeport,passeport,3.3.0;15.3.0,passeport;nationalité;pays;document;étranger;immigré;papier administratif;pièce administrative
@@ -509,7 +500,7 @@ Planning familial,planning_familial,2.21.0;14.1.0;14.2.0,CPEF;planning familial;
 Pleurs bébé,pleurs_bebe,13.2.0,pleurs;bébé;tristesse;larmes
 Pluie,pluie,13.5.0,temps;météo;pluie 
 Protection Maternelle Infantile,pmi,14.7.0,PMI;protection maternelle infantile;consultation médicale
-Protection Maternelle Infantile,pmi_2,14.7.0,consultation;mère;enfant;bébé;puéricultrice;prévention;malade;grossesse;enceinte;infirmière;métropole de lyon
+Protection Maternelle Infantile 2,pmi_2,14.7.0,consultation;mère;enfant;bébé;puéricultrice;prévention;malade;grossesse;enceinte;infirmière;métropole de lyon
 Poids naissance bébé,poids_naissance_bebe,2.16.0;2.9.0,enfant;peser;kilogramme;gramme;santé;médical;nourisson;accouchement
 Point d'interrogation,point_d_interrogation,13.6.0,s'exprimer;question;interrogation
 Poire,poire,1.1.0,poire;fruit
@@ -531,9 +522,8 @@ Couché,position_couchee,18.6.0;19.2.0;20.1.0,position;allongée;couchée;repos
 Debout,position_debout,18.6.0;19.2.0;20.1.0,position;debout;lever;droit;statique;bouger
 Poubelle,poubelle,13.3.0;7.1.2;2.2.0;13.3.0,poubelle;déchets;jeter
 Poumons bébé,poumons_bebe,2.17.0;18.6.0,poumons;bébé;respiration;toux;resprirer;torse
-Poussette,poussette,13.3.1;18.5.0;2.9.0;13.3.0,poussette;bébé;enfant;transport;balade;promenade 
 Poux,poux,13.9.0;2.5.0,poux;se gratter la tête
-Poux,poux_cheveux,2.2.0;2.5.0,hygiène;soins;bains;se laver;fréquence
+Poux dans les cheveux,poux_cheveux,2.2.0;2.5.0,hygiène;soins;bains;se laver;fréquence
 Préfecture,prefecture,14.5.0,Préfecture
 Préhension,prehension,13.7.0,attraper;préhension;mains
 Préservatif,preservatif,2.21.0,contraception;moyen de contraception;préservatif
@@ -542,29 +532,29 @@ Prise de sang adulte,prise_de_sang_adulte,2.1.0;2.30.0,Prise de sang
 Prise de sang enfant,prise_de_sang_enfant,18.4.0;2.1.0,prise de sang;piqûre;enfant
 Prise de tension,prise_de_tension,2.1.0;2.30.0,tension;prise de tension;bras
 Prison,prison,2.24.0;14.8.0;15.2.0,prison;détention;bloquer;délit;enfermer
-,produits_toxiques,13.3.6;2.29.0;17.0.0;18.9.0;13.3.0,toxique;produit toxique;danger;produits ménagers
+Produits toxiques,produits_toxiques,13.3.6;2.29.0;17.0.0;18.9.0;13.3.0,toxique;produit toxique;danger;produits ménagers
 Propriétaire,proprietaire,7.1.1;3.6.0;10.0.0;3.2.0,propriétaire;logement;maison;habitat;clés 
 Prostitution,prostitution,2.24.0;15.2.0,viol;pute;prostituée;proxénète;illégal;réseau;mafia;sexualité;trafic;esclave;péripathéticienne
 Culotte menstruelle,protection_culotte_menstruelle,16.3.0;2.20.0;2.21.0;2.2.0;13.3.0,protection menstruelle;protection hygiènique;culotte menstruelle
 Cup hygiénique,protection_cup,16.3.0;2.20.0;2.21.0;2.2.0;13.3.0,protection menstruelle;protection hygiènique;cup
-Cup hygiénique,protection_cup_sang,16.3.0;2.20.0;2.21.0;2.2.0,protection menstruelle;protection hygiènique;cup
+Cup hygiénique,protection_cup_sang,16.3.0;2.20.0;2.21.0;2.2.0;13.3.0,protection menstruelle;protection hygiènique;cup
 Serviette hygiénique,protection_serviette_hygienique,16.3.0;2.20.0;2.21.0;2.2.0;13.3.0,protection menstruelle;protection hygiènique;serviette hygiénique
-Serviette hygiénique,protection_serviette_hygienique_sang,16.3.0;2.20.0;2.21.0;2.2.0,protection menstruelle;protection hygiènique;serviette hygiénique
+Serviette hygiénique,protection_serviette_hygienique_sang,16.3.0;2.20.0;2.21.0;2.2.0;13.3.0,protection menstruelle;protection hygiènique;serviette hygiénique
 Tampon hygénique,protection_tampon,16.3.0;2.20.0;2.21.0;2.2.0;13.3.0,protection menstruelle;protection hygiènique;culotte menstruelle
-Tampon hygénique 2,protection_tampon_sang,16.3.0;2.20.0;2.21.0;2.2.0,protection menstruelle;protection hygiènique;culotte menstruelle
+Tampon hygénique 2,protection_tampon_sang,16.3.0;2.20.0;2.21.0;2.2.0;13.3.0,protection menstruelle;protection hygiènique;culotte menstruelle
 Protection urinaire adulte,protection_urinaire_adulte,13.3.3;2.2.0;20.3.0;19.3.0;13.3.0,couche;faire pipi;pisser;urine;vieux;incontinent;personne adule;faire caca;merde;chier
 Couche urinaire,protection_urinaire_couche,2.2.0;19.3.0;20.3.0;13.3.1;18.7.0;13.3.0,fuites urinaires;protections;serviettes;urine
 Serviette urinaire,protection_urinaire_serviette,16.3.0;2.20.0;2.21.0;2.2.0;13.3.0,fuites urinaires;protections;couches;urine
 Psychologue,psychologue,14.1.0;2.19.0;2.10.0;12.3.0,psychologue;psychiatre;psychothérapeute;thérapeute
 Psychomotricien,psychomotricien,14.1.0;2.19.0;2.25.0,médical;professionnel;santé;rééducation;corps;psychisme;psychologie;thérapeute;schéma corporel
-Psychomotricien,psychomotricien_2,14.1.0;2.19.0;2.25.0,médical;professionnel;santé;rééducation;corps;psychisme;psychologie;thérapeute;schéma corporel
+Psychomotricien 2,psychomotricien_2,14.1.0;2.19.0;2.25.0,médical;professionnel;santé;rééducation;corps;psychisme;psychologie;thérapeute;schéma corporel
 Puce sur lit,puce_de_lit,2.5.0;13.9.0;2.2.0;2.5.0,Logement;insalubrité;insecte;nuisible;matelas;dormir
 Puces ,puces,2.5.0;13.9.0;2.2.0;2.5.0,Logement;insalubrité;insecte;nuisible;matelas;dormir
 Puéricultrice,puericultrice,14.6.0;2.19.0;7.2.0;12.3.0;18.3.0,infirmière;enfant;bébé;soin
 Punaises sur lit,punaises_de_lit,2.5.0;13.9.0;2.2.0;2.5.0,Logement;insalubrité;insecte;nuisible;matelas;dormir
 Puzzle,puzzle,2.25.0;8.1.0;13.3.1;13.3.0,loisirs;jeux;activités;puzzles;assembler
 Pyjama,pyjama_bebe,2.16.0;2.9.0,vêtement;nuit;dormir;se coucher;se reposer;habit
-Quantité de lait,quantite_de_lait_en_poudre,1.4.018.1.0,lait en poudre;quantité;lait;biberon;cuillère doseuse
+Quantité de lait,quantite_de_lait_en_poudre,1.4.0;18.1.0,lait en poudre;quantité;lait;biberon;cuillère doseuse
 Quelle adresse email ?,quel_email,13.6.0;3.3.0;15.7.0,adresse email;adresse électronique;mail
 Quel numéro de téléphone ?,quel_numero_telephone,13.6.0;3.3.0;15.7.0,numéro de téléphone;numéro de smartphone
 Quelle température,quelle_temperature,13.5.0,température;choix;degrés;chaud;froid
@@ -577,7 +567,7 @@ Régurgitation,regurgitation,2.8.0,régurgitation;biberon;bébé
 Repas hâché,repas_hache,1.9.0;20.2.0;19.1.0;18.1.0,repas mixé;repas mouliné;handicap;nourriture;alimentation;plat;personne âgée;vieux
 Réseaux sociaux,reseaux_sociaux,17.0.0,Réseaux sociaux;facebook;instagram;twitter;tik tok
 Ressources financières,ressources_financieres,15.5.0;3.2.0;10.0.0,argent;échelle;ressources financière;riche;pauvre;paie;payer;euros
-Retraité,retraite,"7,3,0;12.3.0",retraité;retraite
+Retraité,retraite,7.3.0;12.3.0,retraité;retraite
 Rêve cauchemar bébé,reve_cauchemar,18.4.0;13.2.0;2.10.0,bébé;sommeil;cauchemard;rêve
 Réveil,reveil,13.3.0;7.1.2;2.9.0,réveil;horloge;heure;dormir;sommeil;se réveiller;sonnerie
 Riz,riz,1.8.0,riz;féculents
@@ -586,7 +576,7 @@ Sage-femme,sage_femme,16.1.0;2.23.0;2.19.0;12.3.0,accoucher;professionnel;santé
 Saisons,saisons,13.4.0,saisons;printemps;été;automne;hiver
 Salle de bain,salle_de_bain,13.3.0;7.1.2;2.2.0;13.3.0;13.3.4,se laver;hygiène;appartement;maison;pièce;eau;douche;baignoire;évier;savon
 SAMU,samu,14.1.0;2.19.0,Service d'urgence;SAMU; urgence médicale : 
-Ne travaille pas,sans_emploi,"7,3,0;12.3.0",ne travaille pas;au chomâge;sans emploi
+Ne travaille pas,sans_emploi,7.3.0;12.3.0,ne travaille pas;au chomâge;sans emploi
 Sans porc,sans_porc,1.6.0,halal;pas de cochon;régime alimentaire;islam;musulman;alimentation;nourriture
 Scolarité,scolarite,7.2.0;18.3.0,Scolarité;école;lycée;maternelle;université;fac;collège
 Se laver dans une baignoire,se_laver_baignoire,2.2.0;13.7.0,hygiène;nettoyer;propre;savon;shampoing;cheveux;baignoire; bain;eau
@@ -617,7 +607,7 @@ Stade de lecture ,stade_de_lecture,18.4.0;2.25.0,lire;lecture;savoir lire
 Echelle stade de lecture,stade_de_lecture_echelle,18.4.0;2.25.0,lire;lecture;savoir lire
 Stérilet,sterilet,2.21.0,stérilet;moyen de contraception
 Suppositoire enfant,suppositoire,2.1.0;18.4.0,suppositoire;médicament;voie réctale
-Symbole d'accueil accompagnement et accessibilité handicap,symbole_accueil_handicap_s3A,2.27.0;12.1.0;13.10.0;13.10.0;13.3.9,handicapé;invalide;situation de handicap;sourd;muet;aveule;non voyant;malvoyant;fauteuil roulant
+Personne en situation de handicap psychique,personne_en_situation_d_handicap_psychique,2.27.0;12.1.0;13.10.0;13.10.0;13.3.9,handicapé;invalide;situation de handicap;sourd;muet;aveule;non voyant;malvoyant;fauteuil roulant;fou;dépression;schizophrènie;schizophrène;autisme;autiste;dys
 Tablette numérique,tablette_numerique,13.3.0;7.1.2;8.1.0;13.3.5,enfant;écran;tablette;numérique;portable;smartphone;TV;jeux
 Taille naissance bébé,taille_naissance_bebe,2.16.0;2.9.0,enfant;mesurer;grandir;centimètre;nourisson;santé;accouchement : médical
 Tapis de jeu,tapis_de_jeu,13.3.1;2.25.0;8.1.0;13.3.0,jouer;enfant;bébé;parent;s'amuser;par terre
@@ -638,10 +628,8 @@ Vêtements été,tenue_ete,2.16.0;18.8.0;13.3.8;13.3.0,vêtements;habillage;ét�
 Habillement,tenue_hiver,13.3.0;13.4.0;13.3.8;18.8.0;2.16.0;11.0.0,vêtements;habillage; hiver;froid;pull;manteau;gants;bonnets
 Vêtements mi-saison,tenue_mi_saison,2.16.0;18.8.0;13.3.8;13.3.0,vêtements;habillage;mi-saison
 Test sang doigts,test_sang_au_bout_du_doigt,2.30.0,test;sang;doigts;piqûre
-Buste femme,tete_femme,2.17.0,fille;corps
-Buste femme,tete_homme,2.17.0,fille;corps
 Tétine,tetine,13.3.1;18.5.0;13.3.0,tétine;sucette
-Tire-lait,tire_lait,"1.4.0;1.2.0;18.1.0;16.2.0;13,3,1",allaitement;tire-lait;biberon;alimentation bébé
+Tire-lait,tire_lait,1.4.0;1.2.0;18.1.0;16.2.0;13.3.1,allaitement;tire-lait;biberon;alimentation bébé
 Titre de séjour,titre_de_sejour,15.3.0,titre de séjour;carte de séjour;immigré;étranger;document;papier; papier administratif;pièce administrative
 Tomate,tomate,1.1.0,tomate;légumes;fruits
 Toucher,toucher,2.14.0,toucher;mains;doigts;surface;peau;texture
@@ -659,7 +647,7 @@ Urine de couleur,urines_de_couleurs,2.8.0,urines;couleurs;couches
 Vaccins adulte,vaccin_adulte,2.1.0;2.30.0,vaccin;piqûre;seingue;injection;tétanos;hépatite;bcg
 Vaccin enfant,vaccin_enfant,2.1.0;18.4.0,vaccin;piqûre;seingue;injection;tétanos;hépatite;bcg
 Vache,vache,1.6.0;13.9.0,vache;animal;boeuf
-Vapoteur,vapoteur,2.3.0;17.0.013.3.0,Vapoteur;vapoteuse;cigarette électronique
+Vapoteur,vapoteur,2.3.0;17.0.0;13.3.0,Vapoteur;vapoteuse;cigarette électronique
 Varicelle,varicelle_sur_bebe,2.5.0;18.4.0;18.6.0,varicelle;bouton;se gratter;maladie
 Vegan,vegan,1.1.0,végétal;végétarien;végétalien;sans viande;sans oeuf;sans produit laitier;sans lait;sans lactose;sans produit animal
 Végétarien,vegetarien,1.9.0,végétal;végétarien;sans viande
@@ -668,7 +656,7 @@ Vélo,velo,7.4.0;13.3.1;13.3.7;13.3.0,Vélo ;Deux roues;cycle
 Vélo petites roulettes,velo_a_petites_roulettes,13.3.1;2.25.0;8.1.0;13.3.0,enfant;vélo;déplacement;jouet;balade;promenade;bicyclette;roues;roulettes 
 Ventoline,ventoline,13.3.1;13.3.0,ventoline;respiration;asthme
 Verre,verre,13.3.0;7.1.2;1.9.0;19.1.0;20.2.0,verre;boire;eau;à table;s'hydrater ;repas
-Veuf veuve,Veuf_veuve,12.1.0;12.2.0;16.0.0,mort;décès;décédé;morte;vieux;enterrement
+Veuf veuve,veuf_veuve,12.1.0;12.2.0;16.0.0,mort;décès;décédé;morte;vieux;enterrement
 Viande,viandes,1.6.0,viande;poulet;boeuf;protéines
 Viennoiserie,viennoiserie,1.5.0,viennoiseries;gateaux;sucre
 Viol,viol,2.24.0;15.2.0,agression sexuelle;traumatisme;victime;agresseur;pédophile;violence;intrusion
@@ -677,14 +665,13 @@ Violence psychologique,Violences_psychologiques,2.24.0;15.2.0,agresseur;victime;
 Violence psychologique 2,Violences_psychologiques_insultes,2.24.0;15.2.0,agresseur;victime;pervers narcissique;insulte;intrusion;perversion
 Violence parent enfant,violences_sur_enfant,2.24.0,frapper;se battre;agresseur;victime;coup;blessure;faire mal;combattre;bleus;blessure;famille
 Visage,visage,2.17.0,visage;face;yeux;front;joues;nez;menton;bouche;oreilles
-Visage,visage_seul,2.17.0,tête;nez;bouche;yeux;oreille;crâne
+Visage 2,visage_seul,2.17.0,tête;nez;bouche;yeux;oreille;crâne
 Vit à la campagne,vit_campagne,7.1.5;7.1.1,nature;forêt;habiter;maison;jardin
-Vit en ville,vit_en_ville,7.1.5;7.1.1,cité;urbain;citadin;immeuble;habiter
-Cadre et habitude de vie,vit_en_ville,7.1.1;7.1.5;15.8.0,
+Vit en ville,vit_en_ville,7.1.5;7.1.1;15.8.0,cité;urbain;citadin;immeuble;habiter
 Voir bien,voir_bien,2.13.0;2.30.0,vue;vision;oeil
 Voit mal,voir_mal,2.13.0;2.30.0,vue;regarder;malvoyant;voir;yeux;flou;canne;lunettes;lentilles de contact
 Voisins,voisins,7.1.5;12.3.0,ami;locataire;maison;immeuble;ensemble;habiter;palier
-Voisins,voisins_2,7.1.5,ami;locataire;maison;immeuble;ensemble;habiter;palier
+Voisins 2,voisins_2,7.1.5;12.3.0,ami;locataire;maison;immeuble;ensemble;habiter;palier
 Voiture,voiture,7.4.0;15.2.0;13.3.7;13.3.0,Voiture;automobile
 Vol,vol_d_objet,2.24.0,vol;voler;dérober;cambriolage;brigand
 Vue yeux,vue_oeil,2.14.0,yeux;regarder;oeil;lunettes;lentilles;ophtalomogue;pupilles;iris;cils

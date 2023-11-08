@@ -65,6 +65,19 @@
 </script>
 
 <section>
+	<div class="flex justify-center p-4">
+		<div class="flex w-auto h-20">
+			<img src={url +'/logos/interpretable.png'} alt="logo" class="pr-4"/>
+			<img src={url +'/logos/logo_erasme_entete.png'} alt="logo"  class="h-auto"/>
+		</div>
+	</div>
+
+	<div class="text-center text-2xl">
+		Interprétable est un outil de communication utilisant des pictogrammes.<br>
+		Il a été développé par le laboratoire d'innovation ouverte Erasme de la Métropole de Lyon.<br>
+		Pour plus d'information visitez la page <a class="text-purple-600 " href="https://erasme.org/interpretable" target="_blank">https://erasme.org/interpretable</a>.<br>
+	</div>
+	
 	<button
 		class="print:hidden roun bg-purple-600 p-3 rounded-3xl text-white fixed bottom-5 right-5 flex items-center hover:scale-125"
 		on:click={() => window.print()}
