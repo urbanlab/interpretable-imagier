@@ -3,11 +3,11 @@
 ## Docker usage
 ### Use dev docker image
 ```
-docker-compose up -d
+docker compose --profile dev  up -d
 docker cp dev-interpretable-imagier:/app/node_modules ./
-docker-compose down
+docker compose down
 
-docker-compose up
+docker compose --profile dev up
 ```
 
 ### Add a npm package using docker
