@@ -25,12 +25,12 @@
 		const itemLines = await parseCSV(url +'/items.csv');
 
 		let categories = catLines.map(([category_label, category_index]) => ({
-			category_index: category_index.replace('\r', ''), // Remove the carriage return "\r
+			category_index: category_index?.replace('\r', ''), // Remove the carriage return "\r
 			category_label,
 			checked: true,
 			items: itemLines
 				.filter(([pictogram_label, pictogram_file, pictogram_category]) =>
-					pictogram_category?.split(';').find((cat) => cat === category_index.replace('\r', ''))
+					pictogram_category?.split(';').find((cat) => cat === category_index?.replace('\r', ''))
 				)
 				.map(([pictogram_label, pictogram_file, pictogram_category]) => ({
 					pictogram_file,
