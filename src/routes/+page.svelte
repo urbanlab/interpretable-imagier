@@ -167,15 +167,15 @@
 		{#if display}
 			{#each displayedCategories as categories, categoriesIndex}
 				{#if categories.checked}
-					<h1 class="text-3xl">{categories?.category_label}</h1>
+					<h1 class="text-3xl print:break-before-page">{categories?.category_label}</h1>
 					{#each categories.sub_categorie_items as category, categoryIndex}
 						{#if category?.checked}
-							<h1 class="text-xl">{category?.category_label}</h1>
+							<h1 class="text-xl print:break-before-page">{category?.category_label}</h1>
 							<ul class="flex flex-wrap justify-center">
 								{#if category?.items}
 									{#each category.items as item, itemIndex}
 										<li
-											class="w-1/3 md:w-1/5 lg:w-1/6 print:w-1/5 border border-solid border-r-4 rounded-lg m-1"
+											class="w-1/3 md:w-1/5 lg:w-1/6 print:w-1/4  border border-solid border-r-4 rounded-lg m-1"
 										>
 											<button
 												class="print:hidden absolute -m-2 hover:scale-125"
@@ -199,8 +199,9 @@
 											<img
 												src={url + '/svg/' + item.pictogram_file + '.svg'}
 												alt={item.pictogram_label}
+												class="print:h-48 print:landscape:h-44"
 											/>
-											<p>{item.pictogram_label}</p>
+											<p class="pb-2 text-center">{item.pictogram_label}</p>
 										</li>
 									{/each}
 								{/if}
