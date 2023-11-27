@@ -167,7 +167,7 @@
 		{#if display}
 			{#each displayedCategories as categories, categoriesIndex}
 				{#if categories.checked}
-					<h1 class="text-3xl print:break-before-page">{categories?.category_label}</h1>
+					<h1 class="text-4xl print:break-before-page">{categories?.category_label}</h1>
 					{#each categories.sub_categorie_items as category, categoryIndex}
 						{#if category?.checked}
 							<h1 class="text-xl print:break-before-page">{category?.category_label}</h1>
