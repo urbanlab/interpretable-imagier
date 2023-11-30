@@ -37,15 +37,29 @@
 				}))
 		}));
 		// if categorie is in mainCatLines.category_index then add mainCatLines.category_label to mainCategories
-		mainCategories = mainCatLines.map(([category_label, category_index]) => ({
-			category_index: category_index.replace('\r', ''), // Remove the carriage return "\r
-			category_label: category_label,
-			checked: true,
-			toggle: false,
-			sub_categorie_items: category_index
-				.split(';')
-				.map((index) => categories.find((cat) => cat.category_index === index))
-		}));
+		mainCategories = mainCatLines.map(([category_label, category_index]) => {
+			if (category_index.split(';')[1] === undefined) {
+				category_index = category_index.replace(/\s/g, '');
+				return {
+				category_index: category_index, // No need to split for one-item categories
+				category_label: category_label,
+				checked: true,
+				toggle: false,
+				sub_categorie_items: [categories.find((cat) => cat.category_index === category_index)]
+				
+				};
+			} else {
+				return {
+				category_index: category_index.replace('\r', ''), // Remove the carriage return "\r"
+				category_label: category_label,
+				checked: true,
+				toggle: false,
+				sub_categorie_items: category_index
+					.split(';')
+					.map((index) => categories.find((cat) => cat.category_index === index))
+				};
+			}
+		});
 
 		displayedCategories = mainCategories;
 		display = true;
@@ -163,14 +177,14 @@
 			{/each}
 		{/if}
 	</div>
-	<div>
+	<div class="print:break-before-page">
 		{#if display}
 			{#each displayedCategories as categories, categoriesIndex}
 				{#if categories.checked}
-					<h1 class="text-4xl print:break-before-page">{categories?.category_label}</h1>
+					<h1 class="text-4xl ">{categories?.category_label}</h1>
 					{#each categories.sub_categorie_items as category, categoryIndex}
 						{#if category?.checked}
-							<h1 class="text-xl print:break-before-page">{category?.category_label}</h1>
+							<h1 class="text-xl  print:[&:not(:first-child)]:break-before-page">{category?.category_label}</h1>
 							<ul class="flex flex-wrap justify-center">
 								{#if category?.items}
 									{#each category.items as item, itemIndex}
@@ -181,7 +195,7 @@
 												class="print:hidden absolute -m-2 hover:scale-125"
 												on:click={() => removeItem(categoriesIndex, categoryIndex, itemIndex)}
 											>
-												<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"
+												<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512" 
 													><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
 													<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
 													<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -200,6 +214,7 @@
 												src={url + '/svg/' + item.pictogram_file + '.svg'}
 												alt={item.pictogram_label}
 												class="print:h-48 print:landscape:h-44"
+												loading="lazy"
 											/>
 											<p class="pb-2 text-center">{item.pictogram_label}</p>
 										</li>
