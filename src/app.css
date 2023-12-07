@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import font local */
+@font-face {
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SpaceMono'), url(./font/SpaceMono-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'SpaceMono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('SpaceMono'), url(./font/SpaceMono-Bold.ttf) format('truetype');
+}
+
+body {
+  font-family: 'SpaceMono', sans-serif;
+}
