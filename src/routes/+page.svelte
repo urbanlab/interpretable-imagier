@@ -10,7 +10,6 @@
 	let display = false;
 	let url = $page.url.href;
 
-
 	async function parseCSV(file: string): Promise<Array<Array<string>>> {
 		const response = await fetch(file);
 		const text = await response.text();
@@ -66,7 +65,7 @@
 		display = true;
 	}
 
-	function removeItem(categoriesIndex: number, categoryIndex: number, itemIndex: number) {
+	async function removeItem(categoriesIndex: number, categoryIndex: number, itemIndex: number) {
 		const spliced = displayedCategories.filter((cat, catIndex) => {
 			if (catIndex === categoriesIndex) {
 				cat.sub_categorie_items[categoryIndex].items.splice(itemIndex, 1);
@@ -74,6 +73,18 @@
 			return cat;
 		});
 		displayedCategories = spliced;
+	}
+
+	async function checkUncheckAll(index: number) {
+		const spliced = displayedCategories.filter((cat, catIndex) => {
+			if (catIndex === index) {
+				cat.sub_categorie_items.forEach((subCat) => {
+					subCat.checked = !subCat.checked;
+				});
+			}
+			return cat;
+		});
+		displayedCategories = spliced
 	}
 
 	onMount(() => {
@@ -114,7 +125,7 @@
 	<div class="print:hidden">
 		<h1 class="text-2xl font-bold mt-6 mb-6">SELECTIONNEZ LES CATÉGORIES À AFFICHER</h1>
 		{#if display}
-			<div>
+			<div class="flex h-48">
 				<select
 					multiple
 					class="w-1/3 uppercase bold"
@@ -128,95 +139,44 @@
 						{/if}
 					{/each}
 				</select>
-				<select
-					multiple
-					class="w-3/5 uppercase bold"
-					on:change={(e) => console.log(e.target.value)}
-				>
+				<div class="overflow-y-scroll">
 					{#each displayedCategories as categories, categoriesIndex}
-						{#if categories.checked}
-							{#each categories.sub_categorie_items as category, categoryIndex}
-								{#if category?.checked}
-									<option value={category.category_index}>{category?.category_label}</option>
-								{/if}
-							{/each}
-						{/if}
-					{/each}
-				</select>
-			</div>
-			{#each mainCategories as category, categoryIndex}
-				<div class="flex flex-col">
-					<div class="flex items-center">
-						<input
-							type="checkbox"
-							id={category.category_index}
-							name={category.category_index}
-							value={category.category_index}
-							checked={category.checked}
-							on:change={(e) =>
-								(displayedCategories = mainCategories.map((cat, catIndex) => {
-									if (catIndex === categoryIndex) {
-										cat.checked = e.target.checked;
-									}
-									return cat;
-								}))}
-						/>
-						<label for={category.category_index} class="ml-2">{category.category_label}</label>
-						<!-- svelte-ignore a11y-click-events-have-key-events -->
-						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-						<p
-							class="text-3xl cursor-pointer text-white"
-							on:click={() => (category.toggle = !category.toggle)}
-						>
-							{#if !category.toggle}
-								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"
-									><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
-										d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"
-									/></svg
-								>
-							{:else}
-								<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"
-									><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path
-										d="M182.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128z"
-									/></svg
-								>
-							{/if}
-						</p>
-					</div>
-					<div class={category.toggle ? '' : 'hidden'}>
-						{#each category.sub_categorie_items as subCategory, subCategoryIndex}
-							{#if subCategory}
-								<div class="ml-4">
+						{#if selectedMainCategory.includes(categories.category_index)}
+							{#if categories.sub_categorie_items}
+								<div class="uppercase flex hidden">
 									<input
 										type="checkbox"
-										id={subCategory.category_index}
-										name={subCategory.category_index}
-										value={subCategory.category_index}
-										checked={subCategory.checked}
-										on:change={(e) =>
-											(displayedCategories = mainCategories.map((cat, catIndex) => {
-												if (catIndex === categoryIndex) {
-													cat.sub_categorie_items[subCategoryIndex].checked = e.target.checked;
-												}
-												return cat;
-											}))}
+										checked
+										on:click={() => {checkUncheckAll(categoriesIndex)}}
 									/>
-									<label for={subCategory.category_index} class="ml-2"
-										>{subCategory.category_label}</label
-									>
+									Selection / Deselectionner tout
 								</div>
+								{#each categories.sub_categorie_items as category, categoryIndex}
+									{#if category}
+										<div class="uppercase flex">
+											<input
+												type="checkbox"
+												bind:checked={category.checked}
+											/>
+											{category?.category_label}
+										</div>
+									{/if}
+								{/each}
 							{/if}
-						{/each}
-					</div>
+						{/if}
+					{/each}
 				</div>
-			{/each}
+			</div>
+
 		{/if}
 	</div>
 	<div class="print:break-before-page">
 		{#if display}
 			{#each displayedCategories as categories, categoriesIndex}
 				{#if categories.checked}
-					<h1 class="text-4xl">{categories?.category_label}</h1>
+				<div class="print:flex print:items-center print:break-after-page print:break-before-page ">
+					<h1 class="text-4xl print:text-center">{categories?.category_label}</h1>
+				</div>
 					{#each categories.sub_categorie_items as category, categoryIndex}
 						{#if category?.checked}
 							<h1 class="text-xl print:[&:not(:first-child)]:break-before-page">
