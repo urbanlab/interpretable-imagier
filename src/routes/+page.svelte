@@ -174,8 +174,8 @@
 		{#if display}
 			{#each displayedCategories as categories, categoriesIndex}
 				{#if categories.checked}
-				<div class="print:flex print:items-center print:break-after-page print:break-before-page ">
-					<h1 class="text-4xl print:text-center">{categories?.category_label}</h1>
+				<div class="print:h-screen print:flex print:justify-center print:items-center print:break-after-page print:break-before-page ">
+					<h1 class="text-4xl">{categories?.category_label}</h1>
 				</div>
 					{#each categories.sub_categorie_items as category, categoryIndex}
 						{#if category?.checked}
