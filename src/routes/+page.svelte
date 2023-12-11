@@ -1,22 +1,24 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import type { Category } from '$lib/models';
 	import { onMount } from 'svelte';
 
-	let mainCategories = [];
-	let displayedCategories = [];
+	let mainCategories: Array<Category> = [];
+	let displayedCategories: Array<Category> = [];
+	let selectedMainCategory: Array<string> = [];
 
-	let selectedCategories = [];
+	let display = false;
+	let url = $page.url.href;
 
-	async function parseCSV(file) {
+
+	async function parseCSV(file: string): Promise<Array<Array<string>>> {
 		const response = await fetch(file);
 		const text = await response.text();
 		const lines = text.split('\n');
 		lines.shift(); // Remove the first line (header)
 		return lines.map((line) => line.split(','));
 	}
-	let display = false;
-
-	let url = $page.url.href;
+	
 
 	async function parse() {
 		const mainCatLines = await parseCSV(url + '/main.csv');
@@ -37,7 +39,7 @@
 				}))
 		}));
 		// if categorie is in mainCatLines.category_index then add mainCatLines.category_label to mainCategories
-		mainCategories = mainCatLines.map(([category_label, category_index]) => {
+		const parseCat = mainCatLines.map(([category_label, category_index]) => {
 			if (category_index.split(';')[1] === undefined) {
 				category_index = category_index.replace(/\s/g, '');
 				return {
@@ -45,7 +47,7 @@
 					category_label: category_label,
 					checked: true,
 					toggle: false,
-					sub_categorie_items: [categories.find((cat) => cat.category_index === category_index)]
+					sub_categorie_items: [categories.find((cat) => cat.category_index === category_index)!]
 				};
 			} else {
 				return {
@@ -55,16 +57,16 @@
 					toggle: false,
 					sub_categorie_items: category_index
 						.split(';')
-						.map((index) => categories.find((cat) => cat.category_index === index))
+						.map((index) => categories.find((cat) => cat.category_index === index)!)
 				};
 			}
 		});
-
-		displayedCategories = mainCategories;
+		mainCategories = parseCat;
+		displayedCategories = parseCat;
 		display = true;
 	}
 
-	function removeItem(categoriesIndex, categoryIndex, itemIndex) {
+	function removeItem(categoriesIndex: number, categoryIndex: number, itemIndex: number) {
 		const spliced = displayedCategories.filter((cat, catIndex) => {
 			if (catIndex === categoriesIndex) {
 				cat.sub_categorie_items[categoryIndex].items.splice(itemIndex, 1);
@@ -116,7 +118,7 @@
 				<select
 					multiple
 					class="w-1/3 uppercase bold"
-					on:change={(e) => console.log(e.target.value)}
+					bind:value={selectedMainCategory}
 				>
 					{#each displayedCategories as categories, categoriesIndex}
 						{#if categories.checked}
@@ -160,6 +162,8 @@
 								}))}
 						/>
 						<label for={category.category_index} class="ml-2">{category.category_label}</label>
+						<!-- svelte-ignore a11y-click-events-have-key-events -->
+						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 						<p
 							class="text-3xl cursor-pointer text-white"
 							on:click={() => (category.toggle = !category.toggle)}
