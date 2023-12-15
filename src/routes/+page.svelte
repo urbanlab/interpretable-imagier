@@ -133,6 +133,7 @@
 		{#if display}
 			<div class="flex h-48">
 				<select
+					multiple
 					class="w-1/3 uppercase bold"
 					bind:value={selectedMainCategory}
 				>
