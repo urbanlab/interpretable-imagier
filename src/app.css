@@ -19,3 +19,7 @@
 body {
   font-family: 'SpaceMono', sans-serif;
 }
+
+select option {
+  padding: 0.25rem 0 0.25rem 0.5rem;
+}

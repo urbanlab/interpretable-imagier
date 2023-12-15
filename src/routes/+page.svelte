@@ -76,10 +76,16 @@
 	}
 
 	async function checkUncheckAll(index: number) {
+		console.log(index)
+		console.log(displayedCategories)
 		const spliced = displayedCategories.filter((cat, catIndex) => {
 			if (catIndex === index) {
+				console.log(cat)
 				cat.sub_categorie_items.forEach((subCat) => {
-					subCat.checked = !subCat.checked;
+					if(subCat){
+						subCat.checked = !subCat.checked;
+					}
+
 				});
 			}
 			return cat;
@@ -127,7 +133,6 @@
 		{#if display}
 			<div class="flex h-48">
 				<select
-					multiple
 					class="w-1/3 uppercase bold"
 					bind:value={selectedMainCategory}
 				>
@@ -139,24 +144,26 @@
 						{/if}
 					{/each}
 				</select>
-				<div class="overflow-y-scroll">
+				<div class="overflow-y-scroll p-2">
 					{#each displayedCategories as categories, categoriesIndex}
 						{#if selectedMainCategory.includes(categories.category_index)}
 							{#if categories.sub_categorie_items}
-								<div class="uppercase flex hidden">
+								<div class="uppercase flex">
 									<input
 										type="checkbox"
 										checked
-										on:click={() => {checkUncheckAll(categoriesIndex)}}
+										on:click={async () => {await checkUncheckAll(categoriesIndex)}}
+										class="mr-2"
 									/>
-									Selection / Deselectionner tout
+									Sélectionner/Déselectionner tout
 								</div>
 								{#each categories.sub_categorie_items as category, categoryIndex}
 									{#if category}
-										<div class="uppercase flex">
+										<div class="uppercase flex pt-1 pb-1">
 											<input
 												type="checkbox"
 												bind:checked={category.checked}
+												class="mr-2"
 											/>
 											{category?.category_label}
 										</div>
@@ -179,7 +186,7 @@
 				</div>
 					{#each categories.sub_categorie_items as category, categoryIndex}
 						{#if category?.checked}
-							<h1 class="text-xl print:[&:not(:first-child)]:break-before-page">
+							<h1 class="text-xl print:[&:not(:first-child)]:break-before-page mt-4 mb-4">
 								{category?.category_label}
 							</h1>
 							<ul class="flex flex-wrap justify-center">
