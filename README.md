@@ -7,6 +7,20 @@ For more information, visit https://erasme.org/interpretable.
 
 Interpretable Imagier is a static web application that allows to manage the pictograms catalog by adding, editing and deleting pictograms and categories.
 
+- [🎴 Interpretable Imagier](#-interpretable-imagier)
+- [⚙️ Installation](#️-installation)
+  - [🐋 Using Docker](#-using-docker)
+    - [Use dev docker image](#use-dev-docker-image)
+    - [Add a npm package using docker](#add-a-npm-package-using-docker)
+    - [Build for production](#build-for-production)
+  - [🟡 Using npm](#-using-npm)
+    - [Install dependencies](#install-dependencies)
+    - [Run the app in development mode](#run-the-app-in-development-mode)
+    - [Build for production](#build-for-production-1)
+  - [🗒 Configuration](#-configuration)
+    - [Example of files](#example-of-files)
+- [📄 License](#-license)
+
 
 # ⚙️ Installation
 
