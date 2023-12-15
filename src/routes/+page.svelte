@@ -92,13 +92,9 @@
 
 	function checkIfAllUnchecked(categories: Category) {
 		let checked = false;
-		console.log(categories);
 		categories.sub_categorie_items.forEach((subCat) => {
 			if (subCat) {
-				console.log('subCat');
-				console.log(subCat);
 				if (subCat.checked) {
-					console.log('checked');
 					checked = true;
 				}
 			}
