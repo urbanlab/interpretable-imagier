@@ -75,12 +75,12 @@
 		displayedCategories = spliced;
 	}
 
-	async function checkUncheckAll(index: number) {
+	async function checkUncheckAll(index: number, value: boolean) {
 		const spliced = displayedCategories.filter((cat, catIndex) => {
 			if (catIndex === index) {
 				cat.sub_categorie_items.forEach((subCat) => {
 					if(subCat){
-						subCat.checked = !subCat.checked;
+						subCat.checked = value;
 					}
 
 				});
@@ -88,6 +88,23 @@
 			return cat;
 		});
 		displayedCategories = spliced
+	}
+
+	function checkIfAllUnchecked(categories: Category) {
+		let checked = false;
+		console.log(categories);
+		categories.sub_categorie_items.forEach((subCat) => {
+			if (subCat) {
+				console.log('subCat');
+				console.log(subCat);
+				if (subCat.checked) {
+					console.log('checked');
+					checked = true;
+				}
+			}
+			
+		});
+		return checked;
 	}
 
 	onMount(() => {
@@ -150,7 +167,7 @@
 									<input
 										type="checkbox"
 										checked
-										on:click={async () => {await checkUncheckAll(categoriesIndex)}}
+										on:click={async (e) => {await checkUncheckAll(categoriesIndex, e.target.checked)}}
 										class="mr-2"
 									/>
 									Sélectionner/Déselectionner tout
@@ -180,7 +197,10 @@
 			{#each displayedCategories as categories, categoriesIndex}
 				{#if categories.checked}
 				<div class="print:h-screen print:flex print:justify-center print:items-center print:break-after-page print:break-before-page ">
-					<h1 class="text-4xl">{categories?.category_label}</h1>
+					
+					{#if checkIfAllUnchecked(categories)}
+						<h1 class="text-4xl">{categories?.category_label}</h1>
+					{/if}
 				</div>
 					{#each categories.sub_categorie_items as category, categoryIndex}
 						{#if category?.checked}
