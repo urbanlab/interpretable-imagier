@@ -76,7 +76,6 @@
 	}
 
 	async function checkUncheckAll(index: number) {
-		console.log(displayedCategories)
 		const spliced = displayedCategories.filter((cat, catIndex) => {
 			if (catIndex === index) {
 				cat.sub_categorie_items.forEach((subCat) => {
@@ -135,7 +134,7 @@
 					class="w-1/3 uppercase bold"
 					bind:value={selectedMainCategory}
 				>
-					{#each displayedCategories as categories, categoriesIndex}
+					{#each displayedCategories as categories}
 						{#if categories.checked}
 							<option class="" value={categories.category_index}
 								>{categories?.category_label}</option
@@ -156,7 +155,7 @@
 									/>
 									Sélectionner/Déselectionner tout
 								</div>
-								{#each categories.sub_categorie_items as category, categoryIndex}
+								{#each categories.sub_categorie_items as category}
 									{#if category}
 										<div class="uppercase flex pt-1 pb-1">
 											<input
@@ -192,7 +191,7 @@
 								{#if category?.items}
 									{#each category.items as item, itemIndex}
 										<li
-											class="w-1/3 md:w-1/5 lg:w-1/6 print:w-1/4 border border-solid p-2 border-black m-1"
+											class="w-1/3 md:w-1/5 lg:w-1/6 print:w-1/4 print:h-72 border border-solid p-2 border-black m-1"
 										>
 											<button
 												class="print:hidden absolute -m-5 hover:scale-125"
