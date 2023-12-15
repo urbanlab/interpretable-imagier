@@ -76,11 +76,9 @@
 	}
 
 	async function checkUncheckAll(index: number) {
-		console.log(index)
 		console.log(displayedCategories)
 		const spliced = displayedCategories.filter((cat, catIndex) => {
 			if (catIndex === index) {
-				console.log(cat)
 				cat.sub_categorie_items.forEach((subCat) => {
 					if(subCat){
 						subCat.checked = !subCat.checked;
